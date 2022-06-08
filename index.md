@@ -1,3 +1,5 @@
+## Xia Chen
+---
 ## About me
 Data Scientist with 4+ years of academic research & industry experience in developing data algorithm solutions, bringing insights from data for optimization purposes in diverse industries. Proficient in predictive modeling, data-based value proposition, machine learning in human-computer interaction with the research focus on causality, integration of knowledge-based method, as well as uncertainty analysis. Passion for collaboration organization, creativity, digitalization, and delivering AI-based adaptive solutions.
 ## Publications
