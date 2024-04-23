@@ -3,7 +3,7 @@ title: "Introducing causal inference in the energy-efficient building design pro
 collection: publications
 permalink: /publication/2022-10-24-CausalInference
 excerpt: '
-In the vast landscape of design and decision-making, distinguishing between correlation and causation is not just a philosophical nuance but a crucial methodological consideration. As we transition from intuition-driven decisions to data-driven methodologies, it’s imperative to harness the raw potential of data itself rather than rely heavily on potentially biased or incorrect prior knowledge. This manuscript underscores the significance of empowering machine learning models with the ability to ‘learn to learn’ by introducing causal inference, ensuring that knowledge extraction from data is both direct and unbiased.
+In the design and decision-making process, distinguishing between correlation and causation is not just a philosophical mindset but a crucial methodological consideration. As we transition from intuition-driven decisions to data-driven methodologies, it’s necessary to discover potential patterns directly from the raw data rather than rely heavily on potentially biased or incorrect prior knowledge. This manuscript underscores the significance of enabling machine learning models to conduct causal reasoning, ensuring that answers to "What-if" questions are unbiased.
 '
 date: 2022-10-24
 venue: 'Energy and Buildings'
