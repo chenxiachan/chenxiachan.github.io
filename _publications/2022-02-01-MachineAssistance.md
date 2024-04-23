@@ -8,7 +8,7 @@ Drawing inspiration from the human nervous system’s estimation process, we pre
 date: 2022-02-01
 venue: 'Applied Energy'
 paperurl: ''
-citation: '<i> Chen, X., & Geyer, P. (2022). Machine assistance in energy-efficient building design: A predictive framework toward dynamic interaction with human decision-making under uncertainty. Applied Energy, 307, 118240.</i><Br><a href="https://designaid-for2363.streamlit.app/" target="_blank"><b>Online Demo</b></a>'
+citation: '<i> Chen, X., & Geyer, P. (2022). Machine assistance in energy-efficient building design: A predictive framework toward dynamic interaction with human decision-making under uncertainty. Applied Energy, 307, 118240.</i><Br><a href="https://www.youtube.com/watch?v=pKRl-jIe-Vk&ab_channel=XiaChen" target="_blank"><b>Online Demo</b></a>'
 ---
 
 **Abstract**: <Br>
