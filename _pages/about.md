@@ -18,6 +18,7 @@ My dissertation, "*<span style="border-bottom:2px dashed yellow;">Beyond Predict
 
 Invited Talks and Interviews:                                                                                   
 -	"Pathway toward Prior Knowledge-Integrated Machine Learning in Engineering", <i>Intelligent reconstruction of multiphysical fields, DigitalFUTURES workshop, Tongji University, Shanghai, China</i>, 2024
+-	"Enhancing Plausibility in Parametric Analysis: Causal Inference for Augmented Decision-Making - Insights from Architecture, Engineering, and Construct", <i>Indoor Air, Honolulu, USA</i>, 2024.
 -	"Knowledge-integrated Machine Learning in Building Engineering", <i>WELL Seminar, Center for the Built Environment, University of California, Berkeley, USA</i>, 2024.
 -	"Knowledge Base and Machine-Learning Assistance for Performance-oriented Building", <i>Toward Habitable Future Lecture, Faculty of Architecture and Landscape, Leibniz University Hannover, Germany</i>, 2022.
 -	"Introducing Causal Inference in the Energy-Efficient Building Design Process", <i>WELL Seminar, Center for the Built Environment, University of California, Berkeley, USA</i>, 2022.
