@@ -29,4 +29,5 @@ Here you can quickly access my [bio](https://chenxiachan.github.io/files/bio.pdf
 
 Beyond my academic pursuits, I am also a passionate photographer. I invite you to view my creative expressions at my [gallery](https://500px.com/chatchan92)
 
-
+[ ](https://chenxiachan.github.io/files/Cover_Letter_Xia_CHAI.pdf)
+[ ](https://chenxiachan.github.io/files/Dissertation_Skeleton_Xia.pdf)
