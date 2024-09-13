@@ -8,13 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate at Leibniz University Hannover/Technical University Berlin in Germany (2020-2024 expected), research affiliate, and lecturer at the [Institute of Sustainable Building Systems](https://www.iek.uni-hannover.de/de/gebauedetechnik/), under the supervision of Heisenbergprofessor, [Prof. Dr.-Ing. Philipp Geyer](https://www.iek.uni-hannover.de/de/ngs/team/prof-dr-philipp-geyer).
+I am a Ph.D. researcher at Leibniz University Hannover/Technical University Berlin, where I have received *summa cum laude* for both the thesis and oral defense of my dissertation, *Beyond Predictions: Alignment between Prior Knowledge and Machine Learning for Human-Centered Augmented Intelligence*, under the supervision of [Prof. Dr.-Ing. Philipp Geyer (Heisenbergprofessor)](https://www.iek.uni-hannover.de/de/ngs/team/prof-dr-philipp-geyer) and [Prof. Dr. rer. nat. Marius Lindauer](https://www.ai.uni-hannover.de/de/lindauer). My research highlights the vital need for alignment between human intelligence and machine learning to enhance, rather than undermine, human capabilities and autonomy.
 
-Starting in January 2024, I'll be a Visiting Scholar at the University of California, Berkeley, undertaking research in the [Center for the Built Environment (CBE)](https://cbe.berkeley.edu/), investigating how AI embedded with causal inference benefits the engineering domain.
+My dissertation is organized around three key objectives: *Decision-Making Processes Alignment*, *Methodological Paradigms Alignment*, and *Interaction Pattern Alignment*, and it serves as the foundation for my work in augmenting human capabilities with AI.
 
-As a posthumanist, my research goal is to make efforts toward achieving general [augmented intelligence](https://digitalreality.ieee.org/publications/what-is-augmented-intelligence#:~:text=Augmented%20intelligence%20is%20a%20subsection,in%20response%20to%20improved%20decisions.), which involves integrating prior knowledge (first-principles methods) into data-driven approaches, causal inference analysis, and exploring new patterns for human-computer interaction. Most of my works are adapted to engineering/design process support scenarios.
+From January to June 2024, I was a Visiting Scholar at the University of California, Berkeley, conducting research at the Center for the Built Environment (CBE). My work there focuses on how AI embedded with causal inference can support decision-making processes in the engineering domain.
 
-My dissertation, "*<span style="border-bottom:2px dashed yellow;">Beyond Predictions: Alignment between Prior Knowledge and Machine Learning for Human-centered Augmented Intelligence</span>*", encompasses my research during my Ph.D. and emphasizes the vital need for alignment between human intelligence and machine capacities to enhance, rather than undermine, human capabilities and autonomy. The core content is organized into three essential objectives: *Decision-Making Processes Alignment*, *Methodological Paradigms Alignment*, and *Interaction Pattern Alignment*. The online version will be released soon.
+As a posthumanist, I am passionate about achieving general augmented intelligence, integrating prior knowledge (first-principles methods) into data-driven approaches, causal inference analysis, and exploring new human-computer interaction paradigms. My research has significant applications in engineering and design processes, supporting decision-making and enhancing system performance.
+
+[Thesis](https://doi.org/10.15488/17976) | [Video](https://youtu.be/rwQaqewhqSw?si=abgUfUtCfdcIhGmH)
 
 Invited Talks and Interviews:                                                                                   
 -	"Pathway toward Prior Knowledge-Integrated Machine Learning in Engineering", <i>Intelligent reconstruction of multiphysical fields, DigitalFUTURES workshop, Tongji University, Shanghai, China</i>, 2024
