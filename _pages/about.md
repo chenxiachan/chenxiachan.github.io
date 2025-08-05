@@ -9,7 +9,7 @@ redirect_from:
 ---
 I am currently a Postdoctoral Fellow at the [Georg Nemetschek Institute (GNI)](https://www.mdsi.tum.de/gni/startseite/), Technical University of Munich, supported by the TUM GNI Postdoc Program, which enables independent research at the intersection of machine learning, data science, and the built environment (AECOM) domain. My work contributes to GNI’s mission of advancing foundational research in AI while addressing challenges in engineering, sustainability, and human-centric systems.
 
-Previously, I earned my Ph.D. with summa cum laude distinction at Leibniz University Hannover and Technical University Berlin, supervised by [Prof. Dr.-Ing. Philipp Geyer (Heisenbergprofessor)](https://www.iek.uni-hannover.de/de/ngs/team/prof-dr-philipp-geyer) and [Prof. Dr. rer. nat. Marius Lindauer](https://www.ai.uni-hannover.de/de/lindauer). My dissertation, "*<span style="border-bottom:2px dashed yellow;">Beyond Predictions: Alignment between Prior Knowledge and Machine Learning for Human-centered Augmented Intelligence</span>*" lays the foundation for my research into adaptive intelligence systems that respect and extend human autonomy. It is structured around three pillars:
+Previously, I earned my Ph.D. with *summa cum laude* distinction at Leibniz University Hannover and Technical University Berlin, supervised by [Prof. Dr.-Ing. Philipp Geyer (Heisenbergprofessor)](https://www.iek.uni-hannover.de/de/ngs/team/prof-dr-philipp-geyer) and [Prof. Dr. rer. nat. Marius Lindauer](https://www.ai.uni-hannover.de/de/lindauer). My dissertation, "*<span style="border-bottom:2px dashed yellow;">Beyond Predictions: Alignment between Prior Knowledge and Machine Learning for Human-centered Augmented Intelligence</span>*" lays the foundation for my research into adaptive intelligence systems that respect and extend human autonomy. It is structured around three pillars:
 - *Decision-Making Process Alignment*
 - *Methodological Paradigm Alignment*
 - *Interaction Pattern Alignment*
@@ -18,13 +18,6 @@ Previously, I earned my Ph.D. with summa cum laude distinction at Leibniz Univer
 
 In early 2024, I was a Visiting Scholar at the  [Center for the Built Environment (CBE)](https://cbe.berkeley.edu/), UC Berkeley, where I explored the integration of causal inference and AI to support engineering decision-making and energy-efficient design strategies.
 
-As a posthumanist, I am passionate about achieving general [augmented intelligence](https://digitalreality.ieee.org/publications/what-is-augmented-intelligence#:~:text=Augmented%20intelligence%20is%20a%20subsection,in%20response%20to%20improved%20decisions), intelligent systems that dynamically align with human cognition, context, and values. My work integrates first-principles knowledge, causal analysis, and bio-inspired learning architectures to establish new paradigms of human-computer co-evolution.
-
-
-My research contributes to:
-- Human-AI alignment for decision-making, interaction, and collaborative scientific discovery
-- Future-proof AI frameworks for sustainability, design, and engineering under real-world uncertainty
-- Neuro-inspired dynamical systems for adaptive machine intelligence
 
 
 Invited Talks and Interviews:                                                                                   
