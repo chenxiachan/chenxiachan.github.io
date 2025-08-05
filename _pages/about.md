@@ -13,6 +13,7 @@ Previously, I earned my Ph.D. with summa cum laude distinction at Leibniz Univer
 - *Decision-Making Process Alignment*
 - *Methodological Paradigm Alignment*
 - *Interaction Pattern Alignment*
+  
 [Thesis](https://doi.org/10.15488/17976) | [Video](https://youtu.be/rwQaqewhqSw?si=abgUfUtCfdcIhGmH)
 
 In early 2024, I was a Visiting Scholar at the  [Center for the Built Environment (CBE)](https://cbe.berkeley.edu/), UC Berkeley, where I explored the integration of causal inference and AI to support engineering decision-making and energy-efficient design strategies.
