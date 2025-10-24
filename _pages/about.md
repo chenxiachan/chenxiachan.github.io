@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am currently a Postdoctoral Fellow at the [Georg Nemetschek Institute (GNI)](https://www.mdsi.tum.de/gni/startseite/), Technical University of Munich, selected by the TUM GNI Postdoc Program. My mission is to advance *augmented intelligence*: systems that align machine adaptability with human values and autonomy, through a synthesis of dynamical systems theory, machine learning, and design reasoning.
+I am currently a Postdoctoral Fellow at the [Munich Data Science Institute](https://www.mdsi.tum.de/mdsi/startseite/), [Georg Nemetschek Institute (GNI)](https://www.mdsi.tum.de/gni/startseite/), Technical University of Munich, selected by the TUM GNI Postdoc Program. My mission is to advance *augmented intelligence*: systems that align machine adaptability with human values and autonomy, through a synthesis of dynamical systems theory, machine learning, and design reasoning.
 
 Previously, I earned my Ph.D. with *summa cum laude* distinction at Leibniz University Hannover and Technical University Berlin, supervised by [Prof. Dr.-Ing. Philipp Geyer (Heisenbergprofessor)](https://www.iek.uni-hannover.de/de/ngs/team/prof-dr-philipp-geyer) and [Prof. Dr. rer. nat. Marius Lindauer](https://www.ai.uni-hannover.de/de/lindauer). My dissertation, "*<span style="border-bottom:2px dashed yellow;">Beyond Predictions: Alignment between Prior Knowledge and Machine Learning for Human-centered Augmented Intelligence</span>*" lays the foundation for my research into adaptive intelligence systems that respect and extend human autonomy. It is structured around three pillars:
 - *Decision-Making Process Alignment*
