@@ -7,7 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am currently a Postdoctoral Fellow at the [Munich Data Science Institute](https://www.mdsi.tum.de/mdsi/startseite/), [Georg Nemetschek Institute (GNI)](https://www.mdsi.tum.de/gni/startseite/), Technical University of Munich, selected by the TUM GNI Postdoc Program. My mission is to advance *augmented intelligence*: systems that align machine adaptability with human values and autonomy, through a synthesis of dynamical systems theory, machine learning, and design reasoning.
+I am currently a Postdoctoral Fellow at the [Munich Data Science Institute](https://www.mdsi.tum.de/mdsi/startseite/), [Georg Nemetschek Institute (GNI)](https://www.mdsi.tum.de/gni/startseite/), Technical University of Munich, selected by the TUM GNI Postdoc Program. My research seeks *augmented intelligence*: computational systems that dynamically adapt while protecting human autonomy.
+
+My current focus is on investigating how temporal encoding and dynamical regimes shape computation, generalization, and learning efficiency. This work integrates dynamical systems, neuromorphic intelligence, causal modeling, and human-AI co-adaptation, toward a unified framework for scientific machine assistance.
 
 Previously, I earned my Ph.D. with *summa cum laude* distinction at Leibniz University Hannover and Technical University Berlin, supervised by [Prof. Dr.-Ing. Philipp Geyer (Heisenbergprofessor)](https://www.iek.uni-hannover.de/de/ngs/team/prof-dr-philipp-geyer) and [Prof. Dr. rer. nat. Marius Lindauer](https://www.ai.uni-hannover.de/de/lindauer). My dissertation, "*<span style="border-bottom:2px dashed yellow;">Beyond Predictions: Alignment between Prior Knowledge and Machine Learning for Human-centered Augmented Intelligence</span>*" lays the foundation for my research into adaptive intelligence systems that respect and extend human autonomy. It is structured around three pillars:
 - *Decision-Making Process Alignment*
@@ -16,7 +18,7 @@ Previously, I earned my Ph.D. with *summa cum laude* distinction at Leibniz Univ
   
 [Thesis](https://doi.org/10.15488/17976) | [Video](https://youtu.be/rwQaqewhqSw?si=abgUfUtCfdcIhGmH)
 
-In early 2024, I was a Visiting Scholar at the  [Center for the Built Environment (CBE)](https://cbe.berkeley.edu/), UC Berkeley, where I explored how causal inference and AI can enhance decision-making in energy-efficient design, a step toward *scientific machine assistance* that supports, rather than replaces, human creativity.
+In early 2024, I was a Visiting Scholar at the  [Center for the Built Environment (CBE)](https://cbe.berkeley.edu/), UC Berkeley, where I explored how causal inference and AI can enhance decision-making in energy-efficient design. This work bridges to my present interest in AI systems that enhance, rather than replace, scientific and engineering reasoning.
 
 
 
