@@ -17,18 +17,9 @@ Previously, I earned my Ph.D. with *summa cum laude* distinction at Leibniz Univ
 - *Interaction Pattern Alignment*
   
 [Thesis](https://doi.org/10.15488/17976) | [Video](https://youtu.be/rwQaqewhqSw?si=abgUfUtCfdcIhGmH)
+<img width="438" height="438" alt="1-s2 0-S0893608024003393-main" src="https://github.com/user-attachments/assets/567dc2f7-c7da-4723-aecb-433cc0571416" />
 
 In early 2024, I was a Visiting Scholar at the  [Center for the Built Environment (CBE)](https://cbe.berkeley.edu/), UC Berkeley, where I explored how causal inference and AI can enhance decision-making in energy-efficient design. This work bridges to my present interest in AI systems that enhance, rather than replace, scientific and engineering reasoning.
-
-
-
-Invited Talks and Interviews:                                                                                   
--	"Pathway toward Prior Knowledge-Integrated Machine Learning in Engineering", <i>Intelligent reconstruction of multiphysical fields, DigitalFUTURES workshop, Tongji University, Shanghai, China</i>, 2024
--	"Enhancing Plausibility in Parametric Analysis: Causal Inference for Augmented Decision-Making - Insights from Architecture, Engineering, and Construct", <i>Indoor Air, Honolulu, USA</i>, 2024.
--	"Knowledge-integrated Machine Learning in Building Engineering", <i>WELL Seminar, Center for the Built Environment, University of California, Berkeley, USA</i>, 2024.
--	"Knowledge Base and Machine-Learning Assistance for Performance-oriented Building", <i>Toward Habitable Future Lecture, Faculty of Architecture and Landscape, Leibniz University Hannover, Germany</i>, 2022.
--	"Introducing Causal Inference in the Energy-Efficient Building Design Process", <i>WELL Seminar, Center for the Built Environment, University of California, Berkeley, USA</i>, 2022.
--	"Causal Inference as a Method to Aid the Process of Sustainable Building Design", <i>Community workshop on causal tools, Microsoft</i>, 2021.
 
 
 Here you can quickly access my [bio](https://chenxiachan.github.io/files/bio.pdf), and **[publications](https://chenxiachan.github.io/publications/)**.
