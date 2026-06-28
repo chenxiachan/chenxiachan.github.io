@@ -7,7 +7,7 @@ Reveals a universal adaptive computation principle in spiking neural networks, s
 date: 2025-08-20
 venue: 'arXiv preprint'
 paperurl: ''
-citation: '<i>Chen, X. (2025). Dynamical Alignment: A Principle for Adaptive Neural Computation. arXiv preprint arXiv:2508.10064.</i>'
+citation: '<i>Chen, X. (2026). Dynamical alignment: a principle for adaptive neural computation. Neuromorphic Computing and Engineering, 6(1), 014007.</i>'
 ---
 
 **Abstract**: <br>
@@ -19,4 +19,4 @@ We introduce Dynamical Alignment, a unifying principle explaining how neural net
 [[Download paper]](https://arxiv.org/abs/2508.10064)<br>
 [[Github]](https://github.com/chenxiachan/Dynamical_Alignment)<br>
 
-**Citation**: <i>Chen, X. (2025). Dynamical Alignment: A Principle for Adaptive Neural Computation. arXiv preprint arXiv:2508.10064.</i>
+**Citation**: <i>Chen, X. (2026). Dynamical alignment: a principle for adaptive neural computation. Neuromorphic Computing and Engineering, 6(1), 014007.</i>
