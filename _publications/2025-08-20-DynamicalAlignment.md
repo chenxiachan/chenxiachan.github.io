@@ -5,7 +5,7 @@ permalink: /publication/2025-08-20-DynamicalAlignment
 excerpt: '
 Reveals a universal adaptive computation principle in spiking neural networks, showing that matching input temporal structure to neuronal timescales produces two computational modes: dissipative (efficient) and expansive (high-performance), allowing fixed architectures to shift capability simply by shaping input dynamics.'
 date: 2025-08-20
-venue: 'arXiv preprint'
+venue: 'Neuromorphic Computing and Engineering'
 paperurl: ''
 citation: '<i>Chen, X. (2026). Dynamical alignment: a principle for adaptive neural computation. Neuromorphic Computing and Engineering, 6(1), 014007.</i>'
 ---
