@@ -10,7 +10,7 @@ redirect_from:
 I am currently a Postdoctoral Fellow at the [Munich Data Science Institute](https://www.mdsi.tum.de/mdsi/startseite/), [Georg Nemetschek Institute (GNI)](https://www.mdsi.tum.de/gni/startseite/), Technical University of Munich, selected through the TUM GNI Postdoc Program.
 
 My research investigates Human-AI Alignment: how to design AI systems that preserve and amplify human agency rather than replace it.
-My doctoral dissertation, "*<span style="border-bottom:2px dashed yellow;">Beyond Predictions: Alignment between Prior Knowledge and Machine Learning for Human-centered Augmented Intelligence</span>*", established three alignment dimensions as a top-down framework for integrating dynamical principles for computation and investigates how symbolic/physical priors can guide scalable reasoning:
+My doctoral dissertation, "*<span style="border-bottom:2px dashed yellow;">Beyond Predictions: Alignment between Prior Knowledge and Machine Learning for Human-centered Augmented Intelligence</span>*", established three alignment dimensions as a top-down framework for integrating human and domain knowledge into data-driven systems:
 
 - *Decision-Making Process Alignment*
 - *Methodological Paradigm Alignment*
@@ -29,4 +29,9 @@ I received my Ph.D. with *summa cum laude* distinction from Technical University
 
 Here you can quickly access my [bio](https://chenxiachan.github.io/files/bio.pdf), and **[publications](https://chenxiachan.github.io/publications/)**.
 
-Beyond my academic pursuits, I am also a passionate photographer, capturing the balance between light, motion, and silence. I invite you to view my creative expressions at my [gallery](https://500px.com/chatchan92)
+Beyond formal publications, I also write about the broader implications of AI alignment:
+- [*What Cannot Yet Be Ruled Out*](https://www.linkedin.com/pulse/what-cannot-yet-ruled-out-xia-chen-b1jvf/?trackingId=95CA4nBgSgKEWGpl%2Bv1lxg%3D%3D) — On bounded rationality, irreducible uncertainty, and what AI alignment must preserve.
+- [*AI Systems Are Developing Swarm Autonomy. That's Enough to Be Dangerous.* ](https://www.linkedin.com/pulse/ai-systems-developing-swarm-autonomy-thats-enough-dangerous-xia-chen-qgaof/?trackingId=95CA4nBgSgKEWGpl%2Bv1lxg%3D%3D) — On emergent coordination in multi-agent systems and the case for proto-agency as a safety concern.
+
+
+I am also a passionate photographer, capturing the balance between light, motion, and silence. I invite you to view my creative expressions at my [gallery](https://500px.com/chatchan92)
