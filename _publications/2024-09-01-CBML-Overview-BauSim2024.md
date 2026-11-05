@@ -8,6 +8,8 @@ venue: 'In Proceedings of BauSim 2024, 10th Conference of IBPSA-Germany and Aust
 alignment: B
 authors: 'Geyer, P., Chen, X., & Nabavi, S. A.'
 citation: 'Geyer, P., Chen, X., & Nabavi, S. A. (2024). Component-based machine learning modeling for predicting building energy performance – An overview. In Proceedings of BauSim Conference 2024: 10th Conference of IBPSA-Germany and Austria (pp. 112–119).'
+alignments: [B]
+levels: [L2]
 ---
 
 An overview of component-based machine learning for predicting building energy performance.

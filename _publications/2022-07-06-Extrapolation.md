@@ -13,6 +13,8 @@ authors: 'Chen, X., Singh, M.M. & Geyer, P.'
 paper: 'https://www.sciencedirect.com/science/article/pii/S095070512400409X'
 arxiv: 'https://arxiv.org/ftp/arxiv/papers/2302/2302.10784.pdf'
 code: 'https://github.com/chenxiachan/Component_based_Machine_Learning'
+alignments: [B]
+levels: [L2]
 ---
 
 **Abstract**: <br>

@@ -14,6 +14,8 @@ authors: 'Chen, X., Abualdenien, J., Singh, M. M., Borrmann, A., & Geyer, P.'
 paper: 'https://www.sciencedirect.com/science/article/abs/pii/S037877882200754X'
 arxiv: 'https://arxiv.org/abs/2203.10115'
 code: 'https://github.com/chenxiachan/Causal-inference-in-building-design'
+alignments: [A, B]
+levels: [L3]
 ---
 
 **Abstract**: <br>

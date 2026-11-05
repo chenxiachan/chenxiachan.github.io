@@ -10,6 +10,8 @@ citation: '<i> Chen, X., Singh, M.M. & Geyer, P. (2021). Component-based machine
 alignment: B
 authors: 'Chen, X., Singh, M.M. & Geyer, P.'
 paper: 'https://www.researchgate.net/publication/353463670_Component-based_machine_learning_for_predicting_representative_time-_series_of_energy_performance_in_building_design'
+alignments: [B]
+levels: [L2]
 ---
 
 **Abstract**: <Br>

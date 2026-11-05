@@ -13,6 +13,7 @@ authors: 'Chen, X.'
 arxiv: 'https://arxiv.org/abs/2508.10064'
 code: 'https://github.com/chenxiachan/Dynamical_Alignment'
 reader: '/readers/2508.10064.html'
+alignments: [D]
 ---
 
 **Abstract**: <br>

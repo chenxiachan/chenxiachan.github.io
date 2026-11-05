@@ -13,6 +13,7 @@ alignment: A
 authors: 'Chen, X., & Geyer, P.'
 paper: 'https://www.sciencedirect.com/science/article/pii/S0306261921015038'
 demo: 'https://designaid-for2363.streamlit.app/'
+alignments: [A]
 ---
 
 **Abstract**: <Br>

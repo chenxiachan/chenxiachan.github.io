@@ -15,13 +15,13 @@ Extended with researchers at the Max Planck Institute for Intelligent Systems in
 
 [Website](https://chenxiachan.github.io/thoughtdag/) · [GitHub](https://github.com/chenxiachan/thoughtdag)
 
-## PaperFold
+## TextFold
 
-**Zoom any paper for your better understanding.** An arXiv paper unfolds in five levels, from a one-screen map of its sections to every word, in your language. AI sets how much you see; the understanding stays yours.
+**Read anything at the depth you need.** TextFold folds papers, web pages, files and AI replies into five levels of detail and lets you zoom from an overview to the original text. Every level opens back to the source, so the understanding stays yours.
 
-Developed with the Munich Data Science Institute.
+Developed with the Munich Data Science Institute. Three of my papers can be read in it: [Dynamical Alignment](/readers/2508.10064.html), [Constraint Breeds Generalization](/readers/2512.23916.html), [EEGNeX](/readers/2207.12369.html).
 
-[Try it in your browser](https://chenxiachan.github.io/paperfold-gallery/) · [GitHub](https://github.com/chenxiachan/paperfold)
+[Website](https://chenxiachan.github.io/textfold/) · [GitHub](https://github.com/chenxiachan/textfold)
 
 ## Compositional Knowledge Primitives (CKP)
 

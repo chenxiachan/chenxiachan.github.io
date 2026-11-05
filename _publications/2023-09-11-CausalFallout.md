@@ -12,6 +12,8 @@ citation: '<i> Chen, X., Sun, R., Saluz, U., Schiavon, S. and Geyer, P., 2023. U
 alignment: C
 authors: 'Chen, X., Sun, R., Saluz, U., Schiavon, S., & Geyer, P.'
 arxiv: 'https://arxiv.org/abs/2309.11509'
+alignments: [A, B, C]
+levels: [L3]
 ---
 
 **Abstract**: <br>

@@ -8,6 +8,7 @@ venue: 'Building and Environment'
 alignment: A
 authors: 'Zong, C., Chen, X., Deghim, F., Staudt, J., Geyer, P., & Lang, W.'
 citation: 'Zong, C., Chen, X., Deghim, F., Staudt, J., Geyer, P., & Lang, W. (2024). A holistic two-stage decision-making methodology for passive and active building design strategies under uncertainty. Building and Environment, 251, 111211.'
+alignments: [A]
 ---
 
 Organises passive and active building design decisions into two stages and carries their uncertainty through both.

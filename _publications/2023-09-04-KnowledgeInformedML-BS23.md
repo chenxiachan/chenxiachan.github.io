@@ -12,6 +12,8 @@ citation: '<i> Chen, X., & Geyer, P. (2023). Pathway toward prior knowledge-inte
 alignment: B
 authors: 'Chen, X., & Geyer, P.'
 arxiv: 'https://arxiv.org/abs/2307.06950'
+alignments: [B]
+levels: [L1, L2, L3]
 ---
 
 **Abstract**: <br>

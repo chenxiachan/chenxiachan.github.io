@@ -13,6 +13,8 @@ alignment: B
 authors: 'Geyer, P., Singh, M. M., & Chen, X.'
 paper: 'https://www.sciencedirect.com/science/article/abs/pii/S1474034624004919'
 arxiv: 'https://arxiv.org/abs/2108.13836'
+alignments: [B, C]
+levels: [L2]
 ---
 
 **Abstract**: <br>

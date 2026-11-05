@@ -12,6 +12,7 @@ citation: '<i>	Chen X., Saluz U., Staudt J., Margesin M., Lang W., & Geyer P. (2
 alignment: A
 authors: 'Chen X., Saluz U., Staudt J., Margesin M., Lang W., & Geyer P.'
 paper: 'https://ebooks.au.dk/aul/catalog/download/455/312/1850-2?inline=1'
+alignments: [A, B]
 ---
 
 **Abstract**: <br>
