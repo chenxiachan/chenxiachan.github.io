@@ -1,19 +1,25 @@
 # Groups on the publications page. Each publication sets `alignment` to one key.
 - key: F
+  short: "Dissertation"
   name: "Dissertation"
   intro: "The dissertation connects the first three alignments into one framework for human-centred augmented intelligence."
 - key: A
+  short: "Decision-making process"
   name: "A · Decision-making process alignment"
   intro: "Model assistance that follows how people decide: it quantifies uncertainty, explains which inputs drive an outcome, accepts incomplete inputs and leaves the next step to the person. Tested in early-stage building design."
 - key: B
+  short: "Methodological paradigm (prior knowledge)"
   name: "B · Methodological paradigm alignment (prior knowledge)"
   intro: "Knowledge-integrated machine learning (KIML) in three levels: interpolation, where knowledge augments the input; extrapolation, where knowledge shapes the model; and representation, where abstraction and causal reasoning discover knowledge from data. Applied in building energy and, for AI for Science, in PEM water electrolysis and symbolic networks for physics."
 - key: C
+  short: "Interaction pattern (communication)"
   name: "C · Interaction pattern alignment (communication)"
   intro: "Outputs people can read and check, and a wider bandwidth between person and machine: causal analysis of data-driven design studies and the decoding of brain signals."
 - key: D
+  short: "Fundamental mechanism"
   name: "D · Fundamental mechanism alignment"
   intro: "A bottom-up line that brings the fundamental mechanisms of machine learning closer to those of the human brain, starting from how the temporal dynamics of inputs shape what a neural system computes."
 - key: O
+  short: "Other"
   name: "Other"
   intro: ""

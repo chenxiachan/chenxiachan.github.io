@@ -14,6 +14,7 @@ layout: default
       <span><a href="{{ base_path }}/">{{ site.author.name }}</a></span>
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
       {% if page.read_time %}<span>{% include read-time.html %}</span>{% endif %}
+      {% if page.reader %}<a class="post-fold" href="{{ base_path }}{{ page.reader }}" target="_blank" rel="noopener" data-tip="Fold this post into five levels of detail with TextFold"><i class="fas fa-layer-group" aria-hidden="true"></i> Read in layers</a>{% endif %}
     </p>
     {% if page.tags.size > 0 %}<p class="post-tags">{% for t in page.tags %}<span>{{ t }}</span>{% endfor %}</p>{% endif %}
   </header>

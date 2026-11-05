@@ -9,21 +9,19 @@ redirect_from:
 
 {% include base_path %}
 
-Open-source tools first, then publications. A paper can serve more than one alignment; grouped by alignment, it is listed under its main one. The full list is also on <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Google Scholar</a>.
 
-<h2 class="pub-group" id="tools">Open-source tools</h2>
+<h2 class="pub-group pub-first" id="tools">Open-source tools</h2>
 <div class="hv" markdown="0">
 {% include tools.html %}
 </div>
 
-<div class="pub-viewbar" markdown="0"><span>Order publications</span><span class="xr-mode" role="group" aria-label="Order publications"><button type="button" data-view="topic" aria-pressed="true">by alignment</button><button type="button" data-view="year" aria-pressed="false">by year</button></span></div>
+<div class="pub-viewbar" markdown="0"><span class="xr-mode" role="group" aria-label="Order publications"><button type="button" data-view="topic" aria-pressed="true">by alignment</button><button type="button" data-view="year" aria-pressed="false">by year</button></span><a class="pub-scholar" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener" data-tip="All publications on Google Scholar" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a></div>
 
 <div class="pub-view" id="view-topic" markdown="0">
 {% for g in site.data.alignments %}
 {% assign pubs = site.publications | where: "alignment", g.key | sort: "date" | reverse %}
 {% if pubs.size > 0 %}
-<h2 class="pub-group" id="alignment-{{ g.key | downcase }}">{{ g.name }}</h2>
-{% if g.intro != "" %}<p class="pub-intro">{{ g.intro }}</p>{% endif %}
+<h2 class="pub-group" id="alignment-{{ g.key | downcase }}">{{ g.name }}{% if g.intro != "" %} <i class="fas fa-info-circle pub-gi" data-tip="{{ g.intro }}" tabindex="0" aria-label="{{ g.intro }}"></i>{% endif %}</h2>
 {% for post in pubs %}{% include publication-item.html %}{% endfor %}
 {% endif %}
 {% endfor %}

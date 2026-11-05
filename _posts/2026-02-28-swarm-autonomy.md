@@ -5,6 +5,7 @@ permalink: /posts/2026/02/swarm-autonomy/
 excerpt: "On emergent coordination in multi-agent systems and the case for proto-agency as a safety concern."
 first_published: "https://www.linkedin.com/pulse/ai-systems-developing-swarm-autonomy-thats-enough-dangerous-xia-chen-qgaof/"
 first_published_on: LinkedIn
+reader: /readers/blog-swarm-autonomy.html
 tags:
   - AI safety
   - multi-agent systems

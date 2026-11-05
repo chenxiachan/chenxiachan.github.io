@@ -6,6 +6,7 @@ excerpt: "On bounded rationality, irreducible uncertainty, and what AI alignment
 first_published: "https://www.linkedin.com/pulse/what-cannot-yet-ruled-out-xia-chen-b1jvf/"
 first_published_on: LinkedIn
 teaser: /images/blog/what-cannot-yet-be-ruled-out/kind-environment.jpg
+reader: /readers/blog-what-cannot-yet-be-ruled-out.html
 tags:
   - human-AI alignment
   - decision-making

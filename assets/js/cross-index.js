@@ -38,6 +38,7 @@
       status.textContent = filtering ? match + ' work' + (match === 1 ? '' : 's') + (lab ? ' involving ' + lab : '') + where
         : (shown < items.length ? 'Latest ' + shown + ' of ' + items.length + ' works' : 'All ' + items.length + ' works');
       clear.hidden = !filtering;
+      var mb = root.querySelector('.xr-mode'); if (mb) mb.hidden = combo !== null || sel.length < 2;
       if (more) more.hidden = filtering || expanded;
     }
     toggles.forEach(function (t) {
