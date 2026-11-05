@@ -1,0 +1,8 @@
+{% assign xpubs = site.publications | sort: "date" | reverse %}{% assign xletters = "A,B,C,D" | split: "," %}
+<ol class="xr-list">
+{% for post in xpubs %}<li data-al="{{ post.alignments | join: ' ' }}">
+<span class="xr-y">{% if post.status %}{{ post.status }}{% else %}{{ post.date | date: "%Y" }}{% endif %}</span>
+<span class="xr-t"><a href="{{ post.url }}">{{ post.title }}</a> <i>{{ post.venue | truncate: 60 }}</i></span>
+<span class="xr-s">{% for k in xletters %}<i data-k="{{ k }}" class="{% if post.alignments contains k %}in{% endif %}">{{ k }}</i>{% endfor %}</span>
+</li>{% endfor %}
+</ol>
