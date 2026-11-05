@@ -3,13 +3,13 @@ title: "What Cannot Yet Be Ruled Out"
 date: 2026-06-16
 permalink: /posts/2026/06/what-cannot-yet-be-ruled-out/
 excerpt: "On bounded rationality, irreducible uncertainty, and what AI alignment must preserve."
+first_published: "https://www.linkedin.com/pulse/what-cannot-yet-ruled-out-xia-chen-b1jvf/"
+first_published_on: LinkedIn
 tags:
   - human-AI alignment
   - decision-making
   - bounded rationality
 ---
-
-*First published on [LinkedIn](https://www.linkedin.com/pulse/what-cannot-yet-ruled-out-xia-chen-b1jvf/).*
 
 For two weeks this June, I was in Berlin at the Summer Institute on Bounded Rationality, whose theme this year was decision-making in the age of AI. Between talks, I asked Ralph Hertwig what the field was still missing. His answer stayed with me. Most research, he said, treats decisions as *slices*: a single isolated choice, frozen, its probabilities already marked. The harder and more worthwhile object is the *continuous flow*, how real decisions unfold over time as we sample, learn, and revise. The methods are mature on the slice; the open questions live on the flow side.
 

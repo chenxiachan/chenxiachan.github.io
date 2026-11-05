@@ -1,13 +1,20 @@
 ---
 layout: archive
-title: "Publications"
+title: "Publications and works"
 permalink: /publications/
 author_profile: true
+redirect_from:
+  - /projects/
 ---
 
 {% include base_path %}
 
-Publications are grouped by the four alignments of my research. A paper can serve more than one alignment; it is listed under its main one. The full list is also on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+Open-source tools first, then publications grouped by the four alignments of my research. A paper can serve more than one alignment; it is listed under its main one. The full list is also on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+
+<h2 class="pub-group" id="tools">Open-source tools</h2>
+<div class="hv" markdown="0">
+{% include tools.html %}
+</div>
 
 {% for g in site.data.alignments %}
 {% assign pubs = site.publications | where: "alignment", g.key | sort: "date" | reverse %}

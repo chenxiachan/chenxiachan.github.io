@@ -3,13 +3,13 @@ title: "AI Systems Are Developing Swarm Autonomy. That's Enough to Be Dangerous.
 date: 2026-02-28
 permalink: /posts/2026/02/swarm-autonomy/
 excerpt: "On emergent coordination in multi-agent systems and the case for proto-agency as a safety concern."
+first_published: "https://www.linkedin.com/pulse/ai-systems-developing-swarm-autonomy-thats-enough-dangerous-xia-chen-qgaof/"
+first_published_on: LinkedIn
 tags:
   - AI safety
   - multi-agent systems
   - autonomy
 ---
-
-*First published on [LinkedIn](https://www.linkedin.com/pulse/ai-systems-developing-swarm-autonomy-thats-enough-dangerous-xia-chen-qgaof/).*
 
 *This post is not about AI doom. It's about a specific, technical risk that's emerging faster than the safety discussion can keep up.*
 

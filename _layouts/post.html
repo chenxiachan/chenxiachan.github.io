@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+{% include base_path %}
+<div id="main" role="main" class="post-main">
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-head">
+    <p class="post-kicker"><a href="{{ base_path }}/year-archive/">Research blog</a></p>
+    <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+    {% if page.excerpt %}<p class="post-dek" itemprop="description">{{ page.excerpt | strip_html | strip }}</p>{% endif %}
+    <p class="post-byline">
+      <img src="{{ base_path }}/images/{{ site.author.avatar }}" alt="" class="post-avatar">
+      <span><a href="{{ base_path }}/">{{ site.author.name }}</a></span>
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
+      {% if page.read_time %}<span>{% include read-time.html %}</span>{% endif %}
+    </p>
+    {% if page.tags.size > 0 %}<p class="post-tags">{% for t in page.tags %}<span>{{ t }}</span>{% endfor %}</p>{% endif %}
+  </header>
+  <section class="post-body{% if page.wide %} is-wide{% endif %}" itemprop="text">
+{{ content }}
+  </section>
+  <footer class="post-foot">
+    {% if page.first_published %}<p class="post-origin">First published on <a href="{{ page.first_published }}">{{ page.first_published_on | default: "another site" }}</a>.</p>{% endif %}
+    {% assign others = site.posts | where_exp: "p", "p.url != page.url" %}
+    {% if others.size > 0 %}
+    <h2 class="post-more-title">More from the research blog</h2>
+    <ul class="post-more">{% for p in others limit: 4 %}<li><a href="{{ base_path }}{{ p.url }}">{{ p.title }}</a><span>{{ p.date | date: "%B %Y" }}</span>{% if p.excerpt %}<p>{{ p.excerpt | strip_html | strip | truncatewords: 26 }}</p>{% endif %}</li>{% endfor %}</ul>
+    {% endif %}
+  </footer>
+</article>
+</div>
