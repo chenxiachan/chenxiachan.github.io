@@ -27,21 +27,6 @@
     if (navigator.clipboard) navigator.clipboard.writeText(b.getAttribute('data-cite')).then(done, done); else done();
   });
 
-  // the nav ends where the content column ends, on every page (a visual shift; the theme's own nav fitting is untouched)
-  function align() {
-    var links = [].slice.call(document.querySelectorAll('#site-nav .visible-links > li:not(.masthead__menu-item--lg)'));
-    links.forEach(function (li) { li.style.left = ''; });
-    var wrap = document.querySelector('.masthead__inner-wrap');
-    if (!links.length || !wrap || !matchMedia('(min-width: 64em)').matches) return;
-    var r = wrap.getBoundingClientRect(), pr = parseFloat(getComputedStyle(wrap).paddingRight) || 0;
-    var last = links[links.length - 1].querySelector('a').getBoundingClientRect().right;
-    var btn = document.querySelector('#site-nav button');
-    var target = r.right - pr - (btn && btn.offsetParent && !btn.classList.contains('hidden') ? btn.offsetWidth + 16 : 0);
-    var shift = target - last;
-    if (shift > 0) links.forEach(function (li) { li.style.position = 'relative'; li.style.left = shift + 'px'; });
-  }
-  align(); addEventListener('resize', function () { setTimeout(align, 0); }); addEventListener('load', align);
-
   // tool demos: a tab picks the clip; clips play only while visible
   var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
   var io = 'IntersectionObserver' in window ? new IntersectionObserver(function (es) {
