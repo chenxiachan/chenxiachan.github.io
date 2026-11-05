@@ -9,6 +9,9 @@ date: 2022-07-06
 venue: 'In Proceedings of 29th International Workshop on Intelligent Computing in Engineering, EG-ICE 2022, special issue'
 paperurl: ''
 citation: '<i>	Chen X., Saluz U., Staudt J., Margesin M., Lang W., & Geyer P. (2022). Integrated data-driven and knowledge-based performance evaluation for machine assistance in building design decision support, In the 29th International Workshop on Intelligent Computing in Engineering, EG-ICE 2022. Aarhus, Denmark.</i>'
+alignment: A
+authors: 'Chen X., Saluz U., Staudt J., Margesin M., Lang W., & Geyer P.'
+paper: 'https://ebooks.au.dk/aul/catalog/download/455/312/1850-2?inline=1'
 ---
 
 **Abstract**: <br>

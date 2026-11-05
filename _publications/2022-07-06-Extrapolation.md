@@ -8,6 +8,11 @@ date: 2024-06-21
 venue: 'Knowledge-Based Systems'
 paperurl: ''
 citation: '<i>Chen, X., Singh, M.M. and Geyer, P., 2024. Utilizing domain knowledge: robust machine learning for building energy performance prediction with small, inconsistent datasets. Knowledge-Based Systems, p.111774</i>'
+alignment: B
+authors: 'Chen, X., Singh, M.M. & Geyer, P.'
+paper: 'https://www.sciencedirect.com/science/article/pii/S095070512400409X'
+arxiv: 'https://arxiv.org/ftp/arxiv/papers/2302/2302.10784.pdf'
+code: 'https://github.com/chenxiachan/Component_based_Machine_Learning'
 ---
 
 **Abstract**: <br>

@@ -8,6 +8,11 @@ date: 2025-08-20
 venue: 'Neuromorphic Computing and Engineering'
 paperurl: ''
 citation: '<i>Chen, X. (2026). Dynamical alignment: a principle for adaptive neural computation. Neuromorphic Computing and Engineering, 6(1), 014007.</i>'
+alignment: D
+authors: 'Chen, X.'
+arxiv: 'https://arxiv.org/abs/2508.10064'
+code: 'https://github.com/chenxiachan/Dynamical_Alignment'
+reader: '/readers/2508.10064.html'
 ---
 
 **Abstract**: <br>

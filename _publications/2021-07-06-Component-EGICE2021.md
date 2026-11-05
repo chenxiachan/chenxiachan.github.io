@@ -7,6 +7,9 @@ date: 2021-07-06
 venue: 'In Proceedings of 28th International Workshop on Intelligent Computing in Engineering, EG-ICE 2021'
 paperurl: ''
 citation: '<i> Chen, X., Singh, M.M. & Geyer, P. (2021). Component-based machine learning for predicting representative time-series of energy performance in building design. In 28th International Workshop on Intelligent Computing in Engineering, EG-ICE 2021. Berlin, Germany.</i>'
+alignment: B
+authors: 'Chen, X., Singh, M.M. & Geyer, P.'
+paper: 'https://www.researchgate.net/publication/353463670_Component-based_machine_learning_for_predicting_representative_time-_series_of_energy_performance_in_building_design'
 ---
 
 **Abstract**: <Br>

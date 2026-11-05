@@ -9,6 +9,11 @@ date: 2022-10-24
 venue: 'Energy and Buildings'
 paperurl: ''
 citation: '<i>Chen, X., Abualdenien, J., Singh, M. M., Borrmann, A., & Geyer, P. (2022). Introducing causal inference in the energy-efficient building design process. Energy and Buildings, 277, 112583.</i>'
+alignment: B
+authors: 'Chen, X., Abualdenien, J., Singh, M. M., Borrmann, A., & Geyer, P.'
+paper: 'https://www.sciencedirect.com/science/article/abs/pii/S037877882200754X'
+arxiv: 'https://arxiv.org/abs/2203.10115'
+code: 'https://github.com/chenxiachan/Causal-inference-in-building-design'
 ---
 
 **Abstract**: <br>

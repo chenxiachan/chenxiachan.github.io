@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Xia Chen"
 title_separator          : "-"
 name                     : &name "Xia Chen"
-description              : &description "Postdoctoral Researcher at Technical University Munich, Germany"
+description              : &description "Xia Chen, Postdoctoral Fellow at the Technical University of Munich: human–AI alignment, knowledge-integrated machine learning, causal inference and adaptive neural computation."
 url                      : https://chenxiachan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "chenxiachan.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Xia Chen"
   avatar           : "profile.png"
-  bio              : "Postdoctoral Researcher at Technical University Munich, Germany</a>"
+  bio              : "Postdoctoral Fellow, Technical University of Munich"
   location         : "Berlin, Germany"
   employer         :
   pubmed           : 
@@ -123,6 +123,9 @@ include:
   - _pages
   - files
 exclude:
+  - CHANGELOG.md
+  - CONTRIBUTING.md
+  - markdown_generator
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

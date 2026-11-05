@@ -9,6 +9,10 @@ date: 2024-10-01
 venue: 'Advanced Engineering Informatics'
 paperurl: ''
 citation: '<i>	Geyer, P., Singh, M. M., & Chen, X. (2024). Explainable AI for engineering design: A unified approach of systems engineering and component-based deep learning demonstrated by energy-efficient building design. Advanced Engineering Informatics, 62, 102843.</i>'
+alignment: B
+authors: 'Geyer, P., Singh, M. M., & Chen, X.'
+paper: 'https://www.sciencedirect.com/science/article/abs/pii/S1474034624004919'
+arxiv: 'https://arxiv.org/abs/2108.13836'
 ---
 
 **Abstract**: <br>

@@ -39,3 +39,14 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* publications, talks: compact entries grouped by alignment */
+.pub-group { margin-top: 2em; padding-bottom: .3em; border-bottom: 1px solid $border-color; }
+.pub-intro { color: $dark-gray; font-size: .9em; margin: .6em 0 1.2em; }
+.pub-item { margin: 0 0 1.1em; }
+.pub-item p { margin: 0 0 .2em; }
+.pub-title { font-weight: bold; }
+.pub-meta, .pub-excerpt { font-size: .85em; }
+.pub-meta { color: $dark-gray; }
+.pub-links { font-size: .8em; }
+.pub-links a { margin-right: 1em; }

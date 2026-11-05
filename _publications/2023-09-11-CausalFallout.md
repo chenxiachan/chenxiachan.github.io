@@ -9,6 +9,9 @@ date: 2023-12-03
 venue: 'Developments in the Built Environment'
 paperurl: ''
 citation: '<i> Chen, X., Sun, R., Saluz, U., Schiavon, S. and Geyer, P., 2023. Using causal inference to avoid fallouts in data-driven parametric analysis: A case study in the architecture, engineering, and construction industry. Developments in the Built Environment, p.100296. </i>'
+alignment: C
+authors: 'Chen, X., Sun, R., Saluz, U., Schiavon, S., & Geyer, P.'
+arxiv: 'https://arxiv.org/abs/2309.11509'
 ---
 
 **Abstract**: <br>
@@ -17,6 +20,6 @@ The decision-making process in real-world implementations has been affected by a
 ![4-min](https://github.com/chenxiachan/chenxiachan.github.io/assets/106488602/a126c945-8725-4e5e-baa0-d28c67e0ee71)
 
 
-[[Download paper here]]([https://arxiv.org/abs/2307.06950](https://arxiv.org/abs/2309.11509))<Br>
+[[Download paper here]](https://arxiv.org/abs/2309.11509))<Br>
 
 **Citation**:<I> Chen, X., Sun, R., Saluz, U., Schiavon, S. and Geyer, P., 2023. Using causal inference to avoid fallouts in data-driven parametric analysis: A case study in the architecture, engineering, and construction industry. Developments in the Built Environment, p.100296. </i>

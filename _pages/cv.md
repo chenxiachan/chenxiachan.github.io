@@ -9,51 +9,26 @@ redirect_from:
 
 {% include base_path %}
 
+Appointments
+======
+* 2025–: Postdoctoral Fellow, TUM Georg Nemetschek Institute and Munich Data Science Institute, Technical University of Munich (GNI Postdoc Program)
+* 2026: Invited Scholar, Summer Institute on Bounded Rationality, Max Planck Institute for Human Development, Berlin
+* 2024: Visiting Scholar, Center for the Built Environment, UC Berkeley
+* 2020–2024: Doctoral Researcher, Team Leader and Lecturer, TU Berlin and Leibniz University Hannover
+* 2017–2019: Researcher, E.ON Energy Research Center, RWTH Aachen
+
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* 2024: Dr.-Ing., *summa cum laude*, Leibniz University Hannover ([dissertation](https://doi.org/10.15488/17976))
+* 2018: M.Sc. Sustainable Energy Supply Technology, RWTH Aachen University
+* 2015: B.Eng., dual bachelor programme, Tongji University and Beuth University of Applied Sciences Berlin
 
-Work experience
+Service
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Scientific Committee, EG-ICE
+* Conference reviewing: ICML 2026, NeurIPS 2026, EG-ICE 2021–2023, Building Simulation 2023, PLEA 2022
+* Journal reviewing: Energy and Buildings, Fuel, Advanced Engineering Informatics, Structures, Journal of Neural Engineering, Neuromorphic Computing and Engineering
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
+Publications, talks and teaching
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+See [Publications]({{ base_path }}/publications/), [Talks]({{ base_path }}/talks/) and [Teaching]({{ base_path }}/teaching/).
