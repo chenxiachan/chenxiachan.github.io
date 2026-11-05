@@ -389,3 +389,8 @@
 .hv-bio a { color: #2d5f86; border-bottom: 1px solid #c9d1d9; }
 .hv-bio a:hover { border-bottom-color: currentColor; }
 .hv-text .hv-lead + .hv-bio { margin-top: 1.1em; }
+
+
+/* ===== hero: position and links back ===== */
+.hv .hv-lead + .hv-role { margin-top: 1em; }
+.hv .hv-role + .hv-links { margin-top: .2em; }
