@@ -394,3 +394,21 @@
 /* ===== hero: position and links back ===== */
 .hv .hv-lead + .hv-role { margin-top: 1em; }
 .hv .hv-role + .hv-links { margin-top: .2em; }
+
+
+/* ===== notes #24 and #25 ===== */
+/* the hero starts level with the top of the sidebar */
+.hv .hv-hero { align-items: start; padding-top: 0; }
+.page:has(.hv) .page__inner-wrap > header { display: none; }
+.page:has(.hv) .page__content > .hv:first-child { margin-top: 0; }
+.hv .hv-art img { margin-top: 0; }
+/* posts and the blog index sit in the same column as the other subpages */
+.page.post { margin: 0; max-width: none; }
+.page.post .post-head { margin-top: 0; }
+.page.post .post-body { max-width: 46rem; }
+.page.post .post-foot { max-width: 46rem; }
+.archive .blog-intro { font-size: 1em; color: #4a5056; margin: 0 0 1.2em; }
+.archive .blog-list { max-width: 52rem; }
+
+.archive .blog-link, .archive .blog-link * { text-decoration: none; }
+.archive .blog-link h2 { margin-top: 0; }
