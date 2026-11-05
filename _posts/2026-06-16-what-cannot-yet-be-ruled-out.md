@@ -5,6 +5,7 @@ permalink: /posts/2026/06/what-cannot-yet-be-ruled-out/
 excerpt: "On bounded rationality, irreducible uncertainty, and what AI alignment must preserve."
 first_published: "https://www.linkedin.com/pulse/what-cannot-yet-ruled-out-xia-chen-b1jvf/"
 first_published_on: LinkedIn
+teaser: /images/blog/what-cannot-yet-be-ruled-out/kind-environment.jpg
 tags:
   - human-AI alignment
   - decision-making

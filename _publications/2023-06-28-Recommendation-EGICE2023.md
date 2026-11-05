@@ -14,6 +14,7 @@ authors: 'Chen, X., & Geyer, P.'
 paper: 'https://www.ucl.ac.uk/bartlett/construction/sites/bartlett_construction/files/9306.pdf'
 demo: 'https://designaid-for2363.streamlit.app/'
 alignments: [A]
+domains: [ad, su]
 ---
 
 **Abstract**: <br>

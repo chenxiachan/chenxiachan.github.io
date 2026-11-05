@@ -14,6 +14,9 @@ authors: 'Chen, X., Sun, R., Saluz, U., Schiavon, S., & Geyer, P.'
 arxiv: 'https://arxiv.org/abs/2309.11509'
 alignments: [A, B, C]
 levels: [L3]
+doi: '10.1016/j.dibe.2023.100296'
+paper: 'https://doi.org/10.1016/j.dibe.2023.100296'
+domains: [ad, be]
 ---
 
 **Abstract**: <br>

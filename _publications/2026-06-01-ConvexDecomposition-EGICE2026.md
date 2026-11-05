@@ -11,6 +11,7 @@ paper: 'https://mediatum.ub.tum.de/node?id=1855368'
 code: 'https://github.com/adalach/ConvexDecomp'
 citation: 'Dalach, A., Chen, X., & Borrmann, A. (2026). Workflow-Oriented Convex Decomposition of 2D Building Geometry. In Proceedings of the 33rd International Workshop on Intelligent Computing in Engineering.'
 alignments: [A, B]
+domains: [ad]
 ---
 
 Convex decomposition of 2D building geometry, organised around the engineering workflows that use it.

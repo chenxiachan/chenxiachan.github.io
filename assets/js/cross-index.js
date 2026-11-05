@@ -3,7 +3,9 @@
   var NAMES = {A: 'Decision-making', B: 'Prior knowledge', C: 'Interaction', D: 'Mechanism'};
   document.querySelectorAll('.xr').forEach(function (root) {
     var items = [].slice.call(root.querySelectorAll('.xr-list > li'));
-    var limit = +root.dataset.limit || 0, sel = [], mode = 'all', combo = null, expanded = false;
+    var limit = +root.dataset.limit || 0, sel = [], mode = 'all', combo = null, expanded = false, dom = null;
+    var DOMS = {}; root.querySelectorAll('.hex').forEach(function (h) { DOMS[h.dataset.d] = h.querySelector('span').textContent.toLowerCase(); });
+    var doms = function (li) { return li.dataset.dom ? li.dataset.dom.split(' ') : []; };
     var als = function (li) { return li.dataset.al ? li.dataset.al.split(' ') : []; };
     var keyOf = function (a) { return a.join('') || '-'; };
     var status = root.querySelector('.xr-status'), clear = root.querySelector('.xr-clear'), more = root.querySelector('.xr-more');
@@ -15,11 +17,12 @@
       return sel.join(mode === 'all' ? ' and ' : ' or ');
     }
     function apply() {
-      var match = 0, shown = 0, filtering = sel.length || combo !== null;
+      var match = 0, shown = 0, filtering = sel.length || combo !== null || dom !== null;
       items.forEach(function (li) {
         var a = als(li), ok = true;
         if (combo !== null) ok = keyOf(a) === combo;
         else if (sel.length) ok = mode === 'all' ? sel.every(function (k) { return a.indexOf(k) > -1; }) : sel.some(function (k) { return a.indexOf(k) > -1; });
+        if (ok && dom !== null) ok = doms(li).indexOf(dom) > -1;
         if (ok) match++;
         var vis = ok && (filtering || expanded || !limit || match <= limit);
         li.hidden = !vis;
@@ -30,7 +33,9 @@
       root.querySelectorAll('.xm-c').forEach(function (c) { c.setAttribute('aria-pressed', String(c.dataset.combo === combo)); });
       root.querySelectorAll('[data-mode]').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.mode === mode)); });
       root.classList.toggle('is-filtering', !!filtering);
-      status.textContent = filtering ? match + ' work' + (match === 1 ? '' : 's') + ' involving ' + label()
+      root.querySelectorAll('.hex').forEach(function (h) { h.setAttribute('aria-pressed', String(h.dataset.d === dom)); });
+      var lab = label(), where = dom !== null ? ' in ' + DOMS[dom] : '';
+      status.textContent = filtering ? match + ' work' + (match === 1 ? '' : 's') + (lab ? ' involving ' + lab : '') + where
         : (shown < items.length ? 'Latest ' + shown + ' of ' + items.length + ' works' : 'All ' + items.length + ' works');
       clear.hidden = !filtering;
       if (more) more.hidden = filtering || expanded;
@@ -47,11 +52,14 @@
       t.addEventListener('mouseleave', function () { root.classList.remove('hl-' + t.dataset.k); });
     });
     root.querySelectorAll('[data-mode]').forEach(function (b) { b.addEventListener('click', function () { mode = b.dataset.mode; apply(); }); });
-    clear.addEventListener('click', function () { sel = []; combo = null; apply(); });
+    clear.addEventListener('click', function () { sel = []; combo = null; dom = null; apply(); });
+    root.querySelectorAll('.hex').forEach(function (h) {
+      h.addEventListener('click', function () { dom = dom === h.dataset.d ? null : h.dataset.d; apply(); });
+    });
     var all = root.querySelector('.xr-all');
     if (all) all.addEventListener('click', function () { expanded = true; apply(); });
     items.forEach(function (li) {
-      li.addEventListener('mouseenter', function () { als(li).forEach(function (k) { root.querySelectorAll('[data-k="' + k + '"].xr-card, [data-k="' + k + '"].xm-set').forEach(function (c) { c.classList.add('hit'); }); }); });
+      li.addEventListener('mouseenter', function () { doms(li).forEach(function (d) { root.querySelectorAll('.hex[data-d="' + d + '"]').forEach(function (h) { h.classList.add('hit'); }); }); als(li).forEach(function (k) { root.querySelectorAll('[data-k="' + k + '"].xr-card, [data-k="' + k + '"].xm-set').forEach(function (c) { c.classList.add('hit'); }); }); });
       li.addEventListener('mouseleave', function () { root.querySelectorAll('.hit').forEach(function (c) { c.classList.remove('hit'); }); });
     });
 

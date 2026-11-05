@@ -13,6 +13,7 @@ alignment: B
 authors: 'Chen X., Cai X., Kümpel A., Müller D., & Geyer P.'
 paper: 'https://www.researchgate.net/publication/364799973_A_Dynamic_Feedforward_Control_Strategy_for_Energy-efficient_Building_System_Operation'
 alignments: [A, B]
+domains: [ese]
 ---
 
 **Abstract**: <br>

@@ -11,6 +11,7 @@ status: 'under review'
 code: 'https://github.com/adalach/BEM4AI'
 citation: 'Dalach, A., Chen, X., & Geyer, P. A heterogeneous dataset of European building energy models and simulation results for surrogate modeling. Scientific Data (under review)'
 alignments: [B]
+domains: [be]
 ---
 
 A heterogeneous dataset of European building energy models and simulation results, organised for surrogate modelling.

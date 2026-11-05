@@ -13,7 +13,7 @@
   intro: "Outputs people can read and check, and a wider bandwidth between person and machine: causal analysis of data-driven design studies and the decoding of brain signals."
 - key: D
   name: "D · Fundamental mechanism alignment"
-  intro: "A bottom-up line on the mechanism of computation: how the temporal dynamics of inputs shape what a neural system computes."
+  intro: "A bottom-up line that brings the fundamental mechanisms of machine learning closer to those of the human brain, starting from how the temporal dynamics of inputs shape what a neural system computes."
 - key: O
   name: "Other"
   intro: ""

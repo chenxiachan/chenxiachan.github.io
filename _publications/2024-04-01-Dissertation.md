@@ -10,6 +10,8 @@ authors: 'Chen, X.'
 paper: 'https://doi.org/10.15488/17976'
 citation: 'Chen, X. (2024). Beyond predictions: alignment between prior knowledge and machine learning for human-centric augmented intelligence, Doctoral dissertation. https://doi.org/10.15488/17976'
 alignments: [A, B, C]
+doi: '10.15488/17976'
+domains: [ad, ese, md, bm]
 ---
 
 The dissertation behind the first three alignments: decision-making process, methodological paradigm and interaction pattern alignment.

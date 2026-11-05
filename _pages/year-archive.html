@@ -1,17 +1,31 @@
 ---
-layout: archive
+layout: default
 permalink: /year-archive/
 title: "Research blog"
-author_profile: true
 ---
 
 {% include base_path %}
-{% capture written_year %}'None'{% endcapture %}
-{% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-  {% include archive-single.html %}
-{% endfor %}
+<div id="main" role="main" class="post-main">
+<section class="blog-index">
+  <header class="blog-head">
+    <h1>Research blog</h1>
+    <p>Essays and research notes on human–AI alignment, from bounded rationality to multi-agent systems.</p>
+  </header>
+  <ol class="blog-list">
+  {% for post in site.posts %}
+    <li class="blog-item{% if post.teaser %} has-img{% endif %}">
+      <a class="blog-link" href="{{ base_path }}{{ post.url }}">
+        <div class="blog-text">
+          <p class="blog-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time><span>{% include read-time.html %}</span>{% if post.first_published_on %}<span>First published on {{ post.first_published_on }}</span>{% endif %}</p>
+          <h2>{{ post.title }}</h2>
+          {% if post.excerpt %}<p class="blog-dek">{{ post.excerpt | strip_html | strip }}</p>{% endif %}
+          {% if post.tags.size > 0 %}<p class="post-tags">{% for t in post.tags %}<span>{{ t }}</span>{% endfor %}</p>{% endif %}
+          <span class="blog-read">Read →</span>
+        </div>
+        {% if post.teaser %}<img src="{{ base_path }}{{ post.teaser }}" alt="" loading="lazy">{% endif %}
+      </a>
+    </li>
+  {% endfor %}
+  </ol>
+</section>
+</div>

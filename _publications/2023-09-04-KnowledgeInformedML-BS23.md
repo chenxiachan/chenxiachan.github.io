@@ -14,6 +14,9 @@ authors: 'Chen, X., & Geyer, P.'
 arxiv: 'https://arxiv.org/abs/2307.06950'
 alignments: [B]
 levels: [L1, L2, L3]
+doi: '10.26868/25222708.2023.1481'
+paper: 'https://doi.org/10.26868/25222708.2023.1481'
+domains: []
 ---
 
 **Abstract**: <br>

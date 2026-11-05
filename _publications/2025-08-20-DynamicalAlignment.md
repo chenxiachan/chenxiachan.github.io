@@ -14,6 +14,9 @@ arxiv: 'https://arxiv.org/abs/2508.10064'
 code: 'https://github.com/chenxiachan/Dynamical_Alignment'
 reader: '/readers/2508.10064.html'
 alignments: [D]
+doi: '10.1088/2634-4386/ae3acd'
+paper: 'https://doi.org/10.1088/2634-4386/ae3acd'
+domains: []
 ---
 
 **Abstract**: <br>

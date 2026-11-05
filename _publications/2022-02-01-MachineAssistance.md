@@ -11,9 +11,11 @@ paperurl: ''
 citation: '<i> Chen, X., & Geyer, P. (2022). Machine assistance in energy-efficient building design: A predictive framework toward dynamic interaction with human decision-making under uncertainty. Applied Energy, 307, 118240.</i><Br><a href="https://www.youtube.com/watch?v=pKRl-jIe-Vk&ab_channel=XiaChen" target="_blank"><b>Online Demo</b></a>'
 alignment: A
 authors: 'Chen, X., & Geyer, P.'
-paper: 'https://www.sciencedirect.com/science/article/pii/S0306261921015038'
+paper: 'https://doi.org/10.1016/j.apenergy.2021.118240'
 demo: 'https://designaid-for2363.streamlit.app/'
 alignments: [A]
+doi: '10.1016/j.apenergy.2021.118240'
+domains: [ad]
 ---
 
 **Abstract**: <Br>
