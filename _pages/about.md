@@ -11,7 +11,7 @@ redirect_from:
 
 <div class="hv hv-a" markdown="0">
 <section class="hv-hero">
-<div class="hv-text"><p class="hv-lead">I investigate <strong>Human-AI Alignment</strong>: how AI systems can keep people’s decisions, knowledge and attention in the loop, so that they extend what people can understand, decide and discover.</p></div>
+<div class="hv-text"><p class="hv-lead">I investigate <strong>Human-AI Alignment</strong>: how AI systems can keep people’s decisions, knowledge and attention in the loop, so that they extend what people can understand, decide and discover.</p><p class="hv-bio">I am a Postdoctoral Fellow at the <a href="https://www.mdsi.tum.de/mdsi/startseite/">Munich Data Science Institute</a> and the <a href="https://www.mdsi.tum.de/gni/startseite/">Georg Nemetschek Institute (GNI)</a>, Technical University of Munich, selected through the TUM GNI Postdoc Program. I received my Dr.-Ing. <i>summa cum laude</i> from Leibniz University Hannover, after doctoral research at TU Berlin and Leibniz University Hannover with <a href="https://www.iek.uni-hannover.de/de/ngs/team/prof-dr-philipp-geyer">Prof. Dr.-Ing. Philipp Geyer</a> and <a href="https://www.ai.uni-hannover.de/de/lindauer">Prof. Dr. rer. nat. Marius Lindauer</a>; the dissertation, <i>Beyond Predictions</i> (<a href="https://doi.org/10.15488/17976">thesis</a> · <a href="https://youtu.be/rwQaqewhqSw?si=abgUfUtCfdcIhGmH">video</a>), set out the first three alignments. In early 2024, I was a Visiting Scholar at the <a href="https://cbe.berkeley.edu/">Center for the Built Environment (CBE)</a>, UC Berkeley, exploring causal inference and AI ethics in engineering reasoning.</p><p class="hv-bio">I am also a photographer, capturing the balance between light, motion, and silence: <a href="https://500px.com/chatchan92">gallery</a>.</p></div>
 <figure class="hv-art"><img src="/images/human-machine.png" width="438" height="438" alt="A human face and a machine face in profile, facing each other"></figure>
 </section>
 <h2 class="hv-h">Four alignments</h2>
@@ -27,10 +27,6 @@ redirect_from:
 <h2 class="hv-h">Open-source tools</h2>
 {% include tools-compact.html %}
 </div>
-
-I am a Postdoctoral Fellow at the [Munich Data Science Institute](https://www.mdsi.tum.de/mdsi/startseite/) and the [Georg Nemetschek Institute (GNI)](https://www.mdsi.tum.de/gni/startseite/), Technical University of Munich, selected through the TUM GNI Postdoc Program. I received my Dr.-Ing. *summa cum laude* from Leibniz University Hannover, after doctoral research at TU Berlin and Leibniz University Hannover with [Prof. Dr.-Ing. Philipp Geyer](https://www.iek.uni-hannover.de/de/ngs/team/prof-dr-philipp-geyer) and [Prof. Dr. rer. nat. Marius Lindauer](https://www.ai.uni-hannover.de/de/lindauer); the dissertation, *Beyond Predictions* ([thesis](https://doi.org/10.15488/17976) · [video](https://youtu.be/rwQaqewhqSw?si=abgUfUtCfdcIhGmH)), set out the first three alignments. In early 2024, I was a Visiting Scholar at the [Center for the Built Environment (CBE)](https://cbe.berkeley.edu/), UC Berkeley, exploring causal inference and AI ethics in engineering reasoning.
-
-I am also a photographer, capturing the balance between light, motion, and silence: [gallery](https://500px.com/chatchan92).
 
 <div class="hv" markdown="0">
 <h2 class="hv-h" id="news">News</h2>

@@ -60,6 +60,12 @@
       } else media.innerHTML = '<img src="' + b.dataset.img + '" alt="' + cap + '" loading="lazy">';
     }
     tabs.forEach(function (b) { b.addEventListener('click', function () { pick(b); }); });
-    if (tabs.length) pick(tabs[0]);
+    // nothing loads until the reader opens the demos
+    var box = t.querySelector('.tl-more');
+    if (box) box.addEventListener('toggle', function () {
+      if (box.open && tabs.length && !media.firstChild) pick(tabs[0]);
+      if (!box.open) media.querySelectorAll('video').forEach(function (v) { v.pause(); });
+    });
+    else if (tabs.length) pick(tabs[0]);
   });
 })();
