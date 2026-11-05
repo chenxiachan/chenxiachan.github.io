@@ -25,11 +25,11 @@ redirect_from:
 <p class="xr-more"><button type="button" class="xr-all">Show all {{ site.publications.size }} works</button></p>
 </section>
 <h2 class="hv-h">Open-source tools</h2>
-{% include tools-compact.html %}
+{% include tools.html %}
 </div>
 
 
-I received my Dr.-Ing. *summa cum laude* from Leibniz University Hannover, after doctoral research at TU Berlin and Leibniz University Hannover with [Prof. Dr.-Ing. Philipp Geyer](https://www.iek.uni-hannover.de/de/ngs/team/prof-dr-philipp-geyer) and [Prof. Dr. rer. nat. Marius Lindauer](https://www.ai.uni-hannover.de/de/lindauer); the dissertation, *Beyond Predictions* ([thesis](https://doi.org/10.15488/17976) · [video](https://youtu.be/rwQaqewhqSw?si=abgUfUtCfdcIhGmH)), set out the first three alignments. In early 2024, I was a Visiting Scholar at the [Center for the Built Environment (CBE)](https://cbe.berkeley.edu/), UC Berkeley, exploring causal inference and AI ethics in engineering reasoning.
+I received my Dr.-Ing. *summa cum laude* from Leibniz University Hannover, after doctoral research at TU Berlin and Leibniz University Hannover with [Prof. Dr.-Ing. Philipp Geyer](https://www.iek.uni-hannover.de/de/ngs/team/prof-dr-philipp-geyer) and [Prof. Dr. rer. nat. Marius Lindauer](https://www.ai.uni-hannover.de/de/lindauer); the dissertation, *Beyond Predictions* ([thesis](https://doi.org/10.15488/17976) · [video](https://youtu.be/rwQaqewhqSw?si=abgUfUtCfdcIhGmH)), set out the first three alignments. In early 2024, I was a Visiting Scholar at the [Center for the Built Environment (CBE)](https://cbe.berkeley.edu/), UC Berkeley, exploring causal inference and AI ethics in engineering reasoning. In 2026, I was an Invited Scholar at the Summer Institute on Bounded Rationality, [Max Planck Institute for Human Development](https://www.mpib-berlin.mpg.de/en), Berlin.
 
 I am also a photographer, capturing the balance between light, motion, and silence: [gallery](https://500px.com/chatchan92).
 
