@@ -271,3 +271,15 @@
   .blog-item.has-img .blog-link { grid-template-columns: minmax(0, 1fr); }
   .blog-link img { order: -1; height: 11rem; }
 }
+
+
+/* ===== notes #15 to #17 ===== */
+.hv .hv-tool .hv-tool-h { flex-direction: column; align-items: flex-start; justify-content: flex-start; gap: .3em; }
+.hv-tool-h .hv-tag { text-align: left; }
+.pager { clear: both; float: left; width: 100%; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2em; margin: 2.4em 0 0; padding-top: 1.1em; border-top: 1px solid #e1e4e8; }
+.pager a { display: block; text-decoration: none; color: #1f2328; padding: .2em 0; }
+.pager a span { display: block; font-size: .72em; color: #5f6368; margin-bottom: .2em; letter-spacing: .01em; }
+.pager a b { display: block; font-size: .82em; font-weight: 600; line-height: 1.4; }
+.pager a:hover b { color: #2d5f86; }
+.pager .pager-next { text-align: right; grid-column: 2; }
+@media (max-width: 600px) { .pager { grid-template-columns: 1fr; } .pager .pager-next { grid-column: 1; text-align: left; } }

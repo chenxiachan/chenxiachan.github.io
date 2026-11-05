@@ -1,16 +1,7 @@
 {% include base_path %}
-
 {% if page.previous or page.next %}
-  <nav class="pagination">
-    {% if page.previous %}
-      <a href="{{ base_path }}{{ page.previous.url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
-    {% else %}
-      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
-    {% endif %}
-    {% if page.next %}
-      <a href="{{ base_path }}{{ page.next.url }}" class="pagination--pager" title="{{ page.next.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
-    {% else %}
-      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
-    {% endif %}
-  </nav>
+<nav class="pager" aria-label="More in {{ page.collection | default: 'this section' }}">
+  {% if page.previous %}<a class="pager-prev" href="{{ base_path }}{{ page.previous.url }}"><span>← Previous</span><b>{{ page.previous.title | markdownify | strip_html | strip }}</b></a>{% else %}<span></span>{% endif %}
+  {% if page.next %}<a class="pager-next" href="{{ base_path }}{{ page.next.url }}"><span>Next →</span><b>{{ page.next.title | markdownify | strip_html | strip }}</b></a>{% endif %}
+</nav>
 {% endif %}

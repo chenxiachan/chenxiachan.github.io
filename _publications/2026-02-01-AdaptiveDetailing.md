@@ -12,6 +12,7 @@ alignments: [A]
 doi: '10.3390/buildings16040685'
 paper: 'https://doi.org/10.3390/buildings16040685'
 domains: [ad]
+mediatum: 'https://mediatum.ub.tum.de/doc/1850420/1850420.pdf'
 ---
 
 Evaluates building design variants in early phases, when information is incomplete, on the basis of adaptive detailing strategies.
