@@ -154,6 +154,8 @@
 .hv-tool-h b { font-size: 1.12em; }
 .hv-tag { display: inline-flex; align-items: baseline; gap: .35em; font-size: .72em; color: var(--kc); white-space: nowrap; }
 .hv-tag i { font-style: normal; font-weight: 600; color: #fff; background: var(--kc); border-radius: 3px; padding: .15em .38em; }
+.hv-tag i + i { margin-left: -.15em; }
+.hv-tool-h .hv-tag { white-space: normal; text-align: right; }
 .hv .hv-tool .hv-tool-l { margin: 0 0 .4em; }
 .hv-tool ul { margin: 0 0 .5em 1.1em; padding: 0; }
 .hv .hv-tool li { margin: 0 0 .1em; color: #3a3f45; }
