@@ -397,11 +397,6 @@
 
 
 /* ===== notes #24 and #25 ===== */
-/* the hero starts level with the top of the sidebar */
-.hv .hv-hero { align-items: start; padding-top: 0; }
-.page:has(.hv) .page__inner-wrap > header { display: none; }
-.page:has(.hv) .page__content > .hv:first-child { margin-top: 0; }
-.hv .hv-art img { margin-top: 0; }
 /* posts and the blog index sit in the same column as the other subpages */
 .page.post { margin: 0; max-width: none; }
 .page.post .post-head { margin-top: 0; }
