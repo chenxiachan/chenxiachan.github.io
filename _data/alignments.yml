@@ -1,17 +1,27 @@
 # Groups on the publications page. Each publication sets `alignment` to one key.
 - key: F
+  figure: "/images/research/framework.png"
+  caption: "Dissertation, Fig. 1.1: data-driven models bring computation capacity, scalability and data; human cognition brings symbolic knowledge, analogy and logic. Aligned, they form augmented intelligence."
   name: "Dissertation"
   intro: "The dissertation connects the first three alignments into one framework for human-centred augmented intelligence."
 - key: A
+  figure: "/images/research/design-assistance.jpg"
+  caption: "Design assistance along a pipeline of decisions: a rough estimate of GWP or life-cycle cost narrows to an improved range as the design is detailed."
   name: "A · Decision-making process alignment"
   intro: "Model assistance that follows how people decide: it quantifies uncertainty, explains which inputs drive an outcome, accepts incomplete inputs and leaves the next step to the person. Tested in early-stage building design."
 - key: B
+  figure: "/images/research/knowledge-boundary.jpg"
+  caption: "The known knowledge space: interpolation fills gaps inside it, extrapolation reaches beyond its edge."
   name: "B · Methodological paradigm alignment (prior knowledge)"
   intro: "Knowledge-integrated machine learning (KIML) in three levels: interpolation, where knowledge augments the input; extrapolation, where knowledge shapes the model; and representation, where abstraction and causal reasoning discover knowledge from data. Applied in building energy and, for AI for Science, in PEM water electrolysis and symbolic networks for physics."
 - key: C
+  figure: "/images/research/symbiosis.png"
+  caption: "Dissertation, Fig. 4.1: symbiosis for information utility, and a wider interaction bandwidth through data-driven methods."
   name: "C · Interaction pattern alignment (communication)"
   intro: "Outputs people can read and check, and a wider bandwidth between person and machine: causal analysis of data-driven design studies and the decoding of brain signals."
 - key: D
+  figure: "/images/research/dynamical-alignment.png"
+  caption: "Chen, Neuromorphic Computing and Engineering 2026, Fig. 1 (CC BY 4.0): input dynamics steer a fixed network into a dissipative or an expansive mode."
   name: "D · Fundamental mechanism alignment"
   intro: "A bottom-up line on the mechanism of computation: how the temporal dynamics of inputs shape what a neural system computes."
 - key: O

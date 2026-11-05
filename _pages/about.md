@@ -20,14 +20,14 @@ My doctoral dissertation, "*Beyond Predictions: Alignment between Prior Knowledg
 
 Most of this work is tested in engineering, above all building energy and early-stage design; AI for Science is a growing second field. My [publications](/publications/) are grouped by these four alignments.
 
-<img src="/images/research/framework.png" width="640" alt="Alignment of human cognitive characteristics with data-driven approaches: computation capacity, scalability and data on the machine side; symbolic knowledge, analogy and logic on the human side; together, augmented intelligence.">
+<img width="438" height="438" alt="A human face and a machine face in profile, facing each other" src="https://github.com/user-attachments/assets/567dc2f7-c7da-4723-aecb-433cc0571416" />
 
 [Thesis](https://doi.org/10.15488/17976) | [Video](https://youtu.be/rwQaqewhqSw?si=abgUfUtCfdcIhGmH)
 
 I received my Dr.-Ing. *summa cum laude* from Leibniz University Hannover, with doctoral research at TU Berlin and Leibniz University Hannover, supervised by [Prof. Dr.-Ing. Philipp Geyer (Heisenbergprofessor)](https://www.iek.uni-hannover.de/de/ngs/team/prof-dr-philipp-geyer) and [Prof. Dr. rer. nat. Marius Lindauer](https://www.ai.uni-hannover.de/de/lindauer). In early 2024, I was a Visiting Scholar at the [Center for the Built Environment (CBE)](https://cbe.berkeley.edu/), UC Berkeley, exploring causal inference and AI ethics in engineering reasoning.
 
 Beyond formal publications, I also write about the broader implications of AI alignment:
-- [*What Cannot Yet Be Ruled Out*](https://www.linkedin.com/pulse/what-cannot-yet-ruled-out-xia-chen-b1jvf/): on bounded rationality, irreducible uncertainty, and what AI alignment must preserve.
-- [*AI Systems Are Developing Swarm Autonomy. That's Enough to Be Dangerous.*](https://www.linkedin.com/pulse/ai-systems-developing-swarm-autonomy-thats-enough-dangerous-xia-chen-qgaof/): on emergent coordination in multi-agent systems and the case for proto-agency as a safety concern.
+- [*What Cannot Yet Be Ruled Out*](/posts/2026/06/what-cannot-yet-be-ruled-out/): on bounded rationality, irreducible uncertainty, and what AI alignment must preserve.
+- [*AI Systems Are Developing Swarm Autonomy. That's Enough to Be Dangerous.*](/posts/2026/02/swarm-autonomy/): on emergent coordination in multi-agent systems and the case for proto-agency as a safety concern.
 
 I am also a photographer, capturing the balance between light, motion, and silence: [gallery](https://500px.com/chatchan92).

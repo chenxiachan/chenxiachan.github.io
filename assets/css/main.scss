@@ -50,3 +50,8 @@
 .pub-meta { color: $dark-gray; }
 .pub-links { font-size: .8em; }
 .pub-links a { margin-right: 1em; }
+.pub-figure { margin: 0 0 1.4em; max-width: 520px; }
+.pub-figure img { display: block; width: 100%; height: auto; }
+.pub-figure figcaption { font-size: .75em; color: $dark-gray; margin-top: .4em; }
+.page__content .post-figure { margin: 1.2em 0; }
+.page__content .post-figure figcaption { font-size: .8em; color: $dark-gray; margin-top: .4em; }
