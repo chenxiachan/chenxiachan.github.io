@@ -1,0 +1,1 @@
+{% for k in include.als %}{% assign a = site.data.alignments | where: "key", k | first %}<i class="k-{{ k | downcase }}" data-tip="{{ a.short }} alignment">{{ k }}</i>{% endfor %}

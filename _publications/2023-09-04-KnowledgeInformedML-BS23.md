@@ -9,6 +9,14 @@ date: 2023-09-04
 venue: 'In Proceedings of 18th International IBPSA conference and Exhibition, Building Simulation 2023'
 paperurl: ''
 citation: '<i> Chen, X., & Geyer, P. (2023). Pathway toward prior knowledge-integrated machine learning in engineering. arXiv preprint arXiv:2307.06950. </i>'
+alignment: B
+authors: 'Chen, X., & Geyer, P.'
+arxiv: 'https://arxiv.org/abs/2307.06950'
+alignments: [B]
+levels: [L1, L2, L3]
+doi: '10.26868/25222708.2023.1481'
+paper: 'https://doi.org/10.26868/25222708.2023.1481'
+domains: []
 ---
 
 **Abstract**: <br>

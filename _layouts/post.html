@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+{% include base_path %}
+<div id="main" role="main">
+{% include sidebar.html %}
+<article class="page post" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="page__inner-wrap">
+  <header class="post-head">
+    <p class="post-kicker"><a href="{{ base_path }}/year-archive/">Research blog</a></p>
+    <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+    {% if page.excerpt %}<p class="post-dek" itemprop="description">{{ page.excerpt | strip_html | strip }}</p>{% endif %}
+    <p class="post-byline">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
+      {% if page.read_time %}<span>{% include read-time.html %}</span>{% endif %}
+      {% if page.reader %}<a class="post-fold" href="{{ base_path }}{{ page.reader }}" target="_blank" rel="noopener" data-tip="Fold this post into five levels of detail with TextFold"><i class="fas fa-layer-group" aria-hidden="true"></i> Read in layers</a>{% endif %}
+    </p>
+    {% if page.tags.size > 0 %}<p class="post-tags">{% for t in page.tags %}<span>{{ t }}</span>{% endfor %}</p>{% endif %}
+  </header>
+  <section class="post-body{% if page.wide %} is-wide{% endif %}" itemprop="text">
+{{ content }}
+  </section>
+  <footer class="post-foot">
+    {% if page.first_published %}<p class="post-origin">First published on <a href="{{ page.first_published }}">{{ page.first_published_on | default: "another site" }}</a>.</p>{% endif %}
+    {% assign others = site.posts | where_exp: "p", "p.url != page.url" %}
+    {% if others.size > 0 %}
+    <h2 class="post-more-title">More from the research blog</h2>
+    <ul class="post-more">{% for p in others limit: 4 %}<li><a href="{{ base_path }}{{ p.url }}">{{ p.title }}</a><span>{{ p.date | date: "%B %Y" }}</span>{% if p.excerpt %}<p>{{ p.excerpt | strip_html | strip | truncatewords: 26 }}</p>{% endif %}</li>{% endfor %}</ul>
+    {% endif %}
+  </footer>
+</div>
+</article>
+</div>

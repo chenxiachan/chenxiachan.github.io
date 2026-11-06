@@ -1,0 +1,8 @@
+{% assign xpubs = site.publications | sort: "date" | reverse %}{% assign xletters = "A,B,C,D" | split: "," %}
+<ol class="xr-list">
+{% for post in xpubs %}{% include pub-orig.html p=post %}<li data-al="{{ post.alignments | join: ' ' }}" data-dom="{{ post.domains | join: ' ' }}">
+<span class="xr-y">{% if post.status %}{{ post.status }}{% else %}{{ post.date | date: "%Y" }}{% endif %}</span>
+<span class="xr-t">{% if orig and orig != "" %}<a href="{{ orig }}" target="_blank" rel="noopener">{{ post.title }}</a>{% else %}<a href="{{ post.url }}">{{ post.title }}</a>{% endif %} <i>{{ post.venue | truncate: 60 }}</i></span>
+<span class="xr-s">{% for k in xletters %}{% if post.alignments contains k %}{% assign a = site.data.alignments | where: "key", k | first %}<i data-k="{{ k }}" class="in" data-tip="{{ a.short }} alignment">{{ k }}</i>{% endif %}{% endfor %}<a class="xr-det" href="{{ post.url }}" data-tip="Details" aria-label="Details"><i class="fas fa-info-circle"></i></a></span>
+</li>{% endfor %}
+</ol>

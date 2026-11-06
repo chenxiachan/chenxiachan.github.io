@@ -6,32 +6,36 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+  - /talks/
 ---
-I am currently a Postdoctoral Fellow at the [Munich Data Science Institute](https://www.mdsi.tum.de/mdsi/startseite/), [Georg Nemetschek Institute (GNI)](https://www.mdsi.tum.de/gni/startseite/), Technical University of Munich, selected through the TUM GNI Postdoc Program.
 
-My research investigates Human-AI Alignment: how to design AI systems that preserve and amplify human agency rather than replace it.
-My doctoral dissertation, "*<span style="border-bottom:2px dashed yellow;">Beyond Predictions: Alignment between Prior Knowledge and Machine Learning for Human-centered Augmented Intelligence</span>*", established three alignment dimensions as a top-down framework for integrating human and domain knowledge into data-driven systems:
-
-- *Decision-Making Process Alignment*
-- *Methodological Paradigm Alignment*
-- *Interaction Pattern Alignment*
-
-<img width="438" height="438" alt="1-s2 0-S0893608024003393-main" src="https://github.com/user-attachments/assets/567dc2f7-c7da-4723-aecb-433cc0571416" />
-
-[Thesis](https://doi.org/10.15488/17976) | [Video](https://youtu.be/rwQaqewhqSw?si=abgUfUtCfdcIhGmH)
-
-
-These three dimensions address how knowledge-integrated machine learning can be structured to support human reasoning in engineering contexts. Building on this foundation, my postdoctoral research asks a complementary question: *what are the foundational mechanisms that make alignment possible in the first place?* This has led me to investigate adaptive neural computation, where principles from dynamical systems theory and neuromorphic computing reveal how computational systems can inherently align their dynamics with structure in the environment.
-
-Together, the top-down perspective (from application-level alignment) and the bottom-up perspective (from foundational mechanisms) form two converging paths toward a unified understanding of Human-AI Alignment.
-
-I received my Ph.D. with *summa cum laude* distinction from Technical University Berlin and Leibniz University Hannover, supervised by [Prof. Dr.-Ing. Philipp Geyer (Heisenbergprofessor)](https://www.iek.uni-hannover.de/de/ngs/team/prof-dr-philipp-geyer) and [Prof. Dr. rer. nat. Marius Lindauer](https://www.ai.uni-hannover.de/de/lindauer). In early 2024, I was a Visiting Scholar at the [Center for the Built Environment (CBE)](https://cbe.berkeley.edu/), UC Berkeley, exploring causal inference and AI ethics in engineering reasoning.
-
-Here you can quickly access my [bio](https://chenxiachan.github.io/files/bio.pdf), and **[publications](https://chenxiachan.github.io/publications/)**.
-
-Beyond formal publications, I also write about the broader implications of AI alignment:
-- [*What Cannot Yet Be Ruled Out*](https://www.linkedin.com/pulse/what-cannot-yet-ruled-out-xia-chen-b1jvf/?trackingId=95CA4nBgSgKEWGpl%2Bv1lxg%3D%3D) — On bounded rationality, irreducible uncertainty, and what AI alignment must preserve.
-- [*AI Systems Are Developing Swarm Autonomy. That's Enough to Be Dangerous.* ](https://www.linkedin.com/pulse/ai-systems-developing-swarm-autonomy-thats-enough-dangerous-xia-chen-qgaof/?trackingId=95CA4nBgSgKEWGpl%2Bv1lxg%3D%3D) — On emergent coordination in multi-agent systems and the case for proto-agency as a safety concern.
+<div class="hv hv-a" markdown="0">
+<section class="hv-hero">
+<div class="hv-text"><p class="hv-lead">I investigate <strong>Human-AI Alignment</strong>: how AI systems can keep people’s decisions, knowledge and attention in the loop, so that they extend what people can understand, decide and discover.</p><p class="hv-role">Postdoctoral Fellow at the <a href="https://www.mdsi.tum.de/mdsi/startseite/">Munich Data Science Institute</a> and the <a href="https://www.mdsi.tum.de/gni/startseite/">Georg Nemetschek Institute</a>, Technical University of Munich, selected through the TUM GNI Postdoc Program.</p><p class="hv-links"><a href="/year-archive/">Research blog</a><a href="/publications/">Publications &amp; works</a><a href="/cv/">CV</a><a href="https://scholar.google.com/citations?user=dNEQ7yYAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a></p></div>
+<figure class="hv-art"><img src="/images/human-machine.png" width="438" height="438" alt="A human face and a machine face in profile, facing each other"></figure>
+</section>
+<h2 class="hv-h">Four alignments</h2>
+<section class="xr" data-ui="cards" data-limit="8">
+<div class="xr-cards"><button type="button" class="xr-card" data-k="A" aria-pressed="false" data-tip="Model assistance that follows how people decide under uncertainty."><span class="xr-k k-a">A</span><b>Decision-making process</b><span class="xr-n">{% assign n = site.publications | where_exp: "p", "p.alignments contains 'A'" | size %}{{ n }} works</span></button><button type="button" class="xr-card" data-k="B" aria-pressed="false" data-tip="Knowledge-integrated machine learning in three levels: interpolation, extrapolation, representation."><span class="xr-k k-b">B</span><b>Methodological paradigm</b><span class="xr-n">{% assign n = site.publications | where_exp: "p", "p.alignments contains 'B'" | size %}{{ n }} works</span></button><button type="button" class="xr-card" data-k="C" aria-pressed="false" data-tip="Outputs people can read and check, and a wider bandwidth between person and machine."><span class="xr-k k-c">C</span><b>Interaction pattern</b><span class="xr-n">{% assign n = site.publications | where_exp: "p", "p.alignments contains 'C'" | size %}{{ n }} works</span></button><button type="button" class="xr-card" data-k="D" aria-pressed="false" data-tip="Bringing the fundamental mechanisms of machine learning closer to those of the human brain."><span class="xr-k k-d">D</span><b>Fundamental mechanism</b><span class="xr-n">{% assign n = site.publications | where_exp: "p", "p.alignments contains 'D'" | size %}{{ n }} works</span></button></div>
+<div class="xr-domains"><p class="xr-dh">Applied in</p><div class="hex-wrap"><div class="hex-map"><button type="button" class="hex hx-eng" data-d="ese" aria-pressed="false" data-tip="AI for engineering" style="left:0px;top:57px"><span>Energy system engineering</span><em>{% assign n = site.publications | where_exp: "p", "p.domains contains 'ese'" | size %}{{ n }}</em></button><button type="button" class="hex hx-eng" data-d="ad" aria-pressed="false" data-tip="AI for engineering" style="left:104px;top:0px"><span>Architecture design</span><em>{% assign n = site.publications | where_exp: "p", "p.domains contains 'ad'" | size %}{{ n }}</em></button><button type="button" class="hex hx-su" data-d="su" aria-pressed="false" data-tip="AI for sustainability and materials science" style="left:104px;top:114px"><span>Sustainability</span><em>{% assign n = site.publications | where_exp: "p", "p.domains contains 'su'" | size %}{{ n }}</em></button><button type="button" class="hex hx-be" data-d="be" aria-pressed="false" data-tip="AI for the built environment" style="left:208px;top:57px"><span>Built environment</span><em>{% assign n = site.publications | where_exp: "p", "p.domains contains 'be'" | size %}{{ n }}</em></button><button type="button" class="hex hx-su" data-d="md" aria-pressed="false" data-tip="AI for sustainability and materials science" style="left:208px;top:171px"><span>Material discovery</span><em>{% assign n = site.publications | where_exp: "p", "p.domains contains 'md'" | size %}{{ n }}</em></button><button type="button" class="hex hx-be" data-d="hf" aria-pressed="false" data-tip="AI for the built environment" style="left:312px;top:0px"><span>Human factor analysis</span><em>{% assign n = site.publications | where_exp: "p", "p.domains contains 'hf'" | size %}{{ n }}</em></button><button type="button" class="hex hx-bm" data-d="bm" aria-pressed="false" data-tip="AI for medicine" style="left:312px;top:114px"><span>Biomedical application</span><em>{% assign n = site.publications | where_exp: "p", "p.domains contains 'bm'" | size %}{{ n }}</em></button></div><ul class="hex-legend"><li class="hx-eng"><i></i>AI for engineering</li><li class="hx-be"><i></i>AI for the built environment</li><li class="hx-su"><i></i>AI for sustainability and materials science</li><li class="hx-bm"><i></i>AI for medicine</li></ul></div></div>
+<div class="xr-bar"><span class="xr-status" aria-live="polite"></span>
+<span class="xr-mode" role="group" aria-label="Match" hidden><button type="button" data-mode="all" aria-pressed="true">all selected</button><button type="button" data-mode="any" aria-pressed="false">any selected</button></span>
+<button type="button" class="xr-clear" hidden>Clear</button></div>
+{% include cross-items.html %}
+<p class="xr-more"><button type="button" class="xr-all">Show all {{ site.publications.size }} works</button></p>
+</section>
+<h2 class="hv-h">Open-source tools</h2>
+{% include tools.html %}
+</div>
 
 
-I am also a passionate photographer, capturing the balance between light, motion, and silence. I invite you to view my creative expressions at my [gallery](https://500px.com/chatchan92)
+I received my Dr.-Ing. *summa cum laude* from Leibniz University Hannover, after doctoral research at TU Berlin and Leibniz University Hannover with [Prof. Dr.-Ing. Philipp Geyer](https://www.iek.uni-hannover.de/de/ngs/team/prof-dr-philipp-geyer) and [Prof. Dr. rer. nat. Marius Lindauer](https://www.ai.uni-hannover.de/de/lindauer); the dissertation, *Beyond Predictions* ([thesis](https://doi.org/10.15488/17976) · [video](https://youtu.be/rwQaqewhqSw?si=abgUfUtCfdcIhGmH)), set out the first three alignments. In early 2024, I was a Visiting Scholar at the [Center for the Built Environment (CBE)](https://cbe.berkeley.edu/), UC Berkeley, exploring causal inference and AI ethics in engineering reasoning. In 2026, I was an Invited Scholar at the Summer Institute on Bounded Rationality, [Max Planck Institute for Human Development](https://www.mpib-berlin.mpg.de/en), Berlin.
+
+I am also a photographer, capturing the balance between light, motion, and silence: [gallery](https://500px.com/chatchan92).
+
+<div class="hv" markdown="0">
+<h2 class="hv-h" id="news">News</h2>
+<ul class="hv-news">{% assign items = site.talks | concat: site.posts | sort: "date" | reverse %}{% for p in items limit: 10 %}<li><span class="d">{% if p.collection == "posts" %}{{ p.date | date: "%b %Y" }}{% else %}{{ p.date | date: "%Y" }}{% endif %}</span><span class="ni">{% if p.collection == "posts" %}<i class="fas fa-pen-nib" data-tip="Blog post" aria-label="Blog post"></i>{% else %}<i class="fas fa-microphone-alt" data-tip="{{ p.type }}" aria-label="{{ p.type }}"></i>{% endif %}</span><span>{% if p.collection == "posts" %}<a href="{{ p.url }}">{{ p.title }}</a>{% if p.excerpt %}<span class="ne">{{ p.excerpt | strip_html | strip }}</span>{% endif %}{% else %}{{ p.title }}, <i>{{ p.venue }}</i>{% endif %}</span></li>{% endfor %}</ul>
+</div>
+
+<script src="/assets/js/cross-index.js" defer></script>

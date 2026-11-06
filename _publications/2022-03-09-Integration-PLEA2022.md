@@ -9,6 +9,11 @@ date: 2022-03-09
 venue: 'In Proceedings of Passive and Low Energy Architecture, PLEA 2022'
 paperurl: ''
 citation: '<i> Chen X., Cai X., Kümpel A., Müller D., & Geyer P., (2022). Dynamic Feedforward Strategy Development for Building Heating System based on AI Forecasting and Simulation. In Passive and Low Energy Architecture, PLEA 2022, Santiago de Chile, Chile.</i>'
+alignment: B
+authors: 'Chen X., Cai X., Kümpel A., Müller D., & Geyer P.'
+paper: 'https://www.researchgate.net/publication/364799973_A_Dynamic_Feedforward_Control_Strategy_for_Energy-efficient_Building_System_Operation'
+alignments: [A, B]
+domains: [ese]
 ---
 
 **Abstract**: <br>

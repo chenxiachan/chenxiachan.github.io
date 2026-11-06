@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Xia Chen"
 title_separator          : "-"
 name                     : &name "Xia Chen"
-description              : &description "Postdoctoral Researcher at Technical University Munich, Germany"
+description              : &description "Xia Chen, Postdoctoral Fellow at the Technical University of Munich: human–AI alignment, knowledge-integrated machine learning, causal inference and adaptive neural computation."
 url                      : https://chenxiachan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "chenxiachan.github.io"
@@ -81,8 +81,8 @@ analytics:
 # Site Author
 author:
   name             : "Xia Chen"
-  avatar           : "profile.png"
-  bio              : "Postdoctoral Researcher at Technical University Munich, Germany</a>"
+  avatar           : "profile-gni.jpg"
+  bio              : "Postdoctoral Fellow, Technical University of Munich"
   location         : "Berlin, Germany"
   employer         :
   pubmed           : 
@@ -123,6 +123,9 @@ include:
   - _pages
   - files
 exclude:
+  - CHANGELOG.md
+  - CONTRIBUTING.md
+  - markdown_generator
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -185,7 +188,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
@@ -196,12 +199,12 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: post
       author_profile: true
       read_time: true
-      comments: true
-      share: true
-      related: true
+      comments: false
+      share: false
+      related: false
   # _pages
   - scope:
       path: ""
@@ -225,7 +228,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
   # _portfolio
   - scope:
