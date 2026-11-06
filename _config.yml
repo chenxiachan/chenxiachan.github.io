@@ -190,6 +190,8 @@ collections:
   talks:
     output: false
     permalink: /:collection/:path/
+  news:
+    output: false
 
 
 # Defaults
