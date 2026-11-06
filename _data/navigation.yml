@@ -1,10 +1,10 @@
 # main links
 main:
-  - title: "Publications & works"
-    url: /publications/
-
   - title: "Research blog"
     url: /year-archive/
+
+  - title: "Publications & works"
+    url: /publications/
 
   - title: "Teaching"
     url: /teaching/
