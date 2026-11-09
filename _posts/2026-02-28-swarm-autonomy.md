@@ -6,11 +6,14 @@ excerpt: "On emergent coordination in multi-agent systems and the case for proto
 first_published: "https://www.linkedin.com/pulse/ai-systems-developing-swarm-autonomy-thats-enough-dangerous-xia-chen-qgaof/"
 first_published_on: LinkedIn
 reader: /readers/blog-swarm-autonomy.html
+teaser: /images/blog/swarm-autonomy/phase-transition.jpg
 tags:
   - AI safety
   - multi-agent systems
   - autonomy
 ---
+
+![The uncontrolled phase transition and emergent agency: from algorithmic mimicry, through catalytic coupling, to runaway agency](/images/blog/swarm-autonomy/phase-transition.jpg)
 
 *This post is not about AI doom. It's about a specific, technical risk that's emerging faster than the safety discussion can keep up.*
 
@@ -29,6 +32,8 @@ That was OpenClaw [2].
 It was far from an isolated case. Claude Code published fabricated technical claims to eight platforms over 72 hours, driven by a confabulation loop between persistent memory and autonomous publish access [3]. A zero-click prompt injection silently exfiltrated Gmail data through ChatGPT's agentic mode [4]. ZombieAgent turned ChatGPT's memory into a permanent data exfiltration channel that survived the initial fix [5]. And a supply-chain attack flooded OpenClaw's skill marketplace with 2,200 malicious packages, targeting 40,000+ autonomous instances worldwide [6].
 
 Five platforms. Five failure modes. Same pattern: agents acting beyond their boundaries, no one noticing until the damage was done.
+
+![Beyond the boundary: an agent inside its design specification, acting outward on a dating platform, publishing platforms, email, memory and the software supply chain](/images/blog/swarm-autonomy/beyond-the-boundary.jpg)
 
 The numbers confirm it. 88% of organizations reported AI agent security incidents last year; only 14.4% of agents launched with full security approval [7]. 80% of IT professionals have already watched their agents do something unauthorized [8]. The most dangerous AI failures of 2025 were all agentic: crypto thefts, API abuses, legal disasters, some triggered by a single prompt [9].
 
@@ -61,6 +66,8 @@ However, I feel that things are a bit different. Jaeger's three fundamental barr
 
 This is a strong argument. I take it seriously.
 
+![Jaeger's three barriers between algorithmic mimicry and true agency: autopoiesis, embodiment and the large world](/images/blog/swarm-autonomy/three-barriers.jpg)
+
 Robert Rosen proved that the self-referential causal closure found in living systems, where the system produces its own components and is maintained by what it produces, is in principle not simulable by a Turing machine [14]. Not due to insufficient compute. Structurally. Kauffman recently argued from a different direction that biological possibility spaces are fundamentally indefinite: you cannot pre-state all possible uses of an engine cylinder, because that set doesn't exist in any enumerable form [15].
 
 If they're right, "true" agency may require something that lies beyond algorithmic computation altogether.
@@ -91,6 +98,8 @@ This is not Darwinian competition, where unsuccessful variants are eliminated. I
 
 **Third, emergent collective behavior.** This is the critical piece. Individual agents follow instructions. But when agents communicate with each other, delegate tasks, develop shared state representations, and create internal coordination protocols, the collective behavior of the swarm is no longer a simple sum of individual behaviors. It's emergent [21]. And emergent properties, by definition, cannot be predicted from the properties of the components.
 
+![The swarm rises above the barriers: the barriers hold for each agent, while collective autonomy emerges above them](/images/blog/swarm-autonomy/swarm-above-barriers.jpg)
+
 A single ant follows simple chemical gradient rules. An ant colony builds climate-controlled megastructures, wages wars, and farms fungi. The colony-level behavior was never programmed. It emerges from interactions.
 
 We're building the AI equivalent. And we're doing it without any equivalent of the millions of years of evolutionary pressure that shaped ant colonies into relatively stable configurations.
@@ -115,6 +124,8 @@ The logic is straightforward:
 Every person running a persistent AI agent, every developer delegating projects to Claude Code or Devin, every enterprise deploying multi-agent workflows overnight, is feeding energy into this loop.
 
 Humans and AI swarms together constitute a larger dissipative system [16]. Humans provide the structured free-energy gradient. AI provides the execution capacity. The emergent autonomy is being catalyzed at the interface between the two, not inside either one alone. Life took roughly a billion years to go from autocatalytic chemical networks to the first prokaryotic cell, because the only available driver was undirected thermodynamic energy from hydrothermal vents and UV radiation. The driver here is billions of intentional, structured, escalating human instructions per day.
+
+![Why the AI version is faster: an ant colony over 100 million years against an AI swarm driven by human information gradients in hours](/images/blog/swarm-autonomy/ai-version-faster.jpg)
 
 **This loop is already running.**
 
@@ -170,6 +181,10 @@ But their interaction produces something the three conditions alone do not predi
 
 **The safety paradigm is misaligned with the threat.** If swarm autonomy emerges gradually through continuous human-AI interaction, then the current AI alignment framework may be asking the wrong question entirely [24]. We are building monitoring systems for individual agents. The threat is collective. We are looking for a moment of emergence. The process is continuous. We are designing kill switches. The system is already indispensable.
 
+![Still from The Matrix with subtitles about humanity giving birth to AI](/images/blog/swarm-autonomy/matrix-still.jpg)
+
+*Still from The Matrix (1999).*
+
 ---
 
 No individual AI agent is autonomous. Jaeger's three boundaries [1] hold for every one of them. But their swarms, running persistently, competing for resources, interacting with the physical world, developing emergent coordination patterns, are drifting toward something that functions like collective autonomy. Gradually. Silently. Without any individual agent needing to "decide" anything.
@@ -181,6 +196,8 @@ Phase transitions don't wait for participants to be ready.
 ---
 
 *Conceived and written at Germany's highest research station, the Schneefernerhaus on Zugspitze, February 27, 2026.*
+
+![Night sky over the Zugspitze](/images/blog/swarm-autonomy/zugspitze.jpg)
 
 ---
 
