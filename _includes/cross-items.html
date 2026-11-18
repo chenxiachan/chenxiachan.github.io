@@ -1,5 +1,10 @@
 {% assign xpubs = site.publications | sort: "date" | reverse %}{% assign xletters = "A,B,C,D" | split: "," %}
 <ol class="xr-list">
+{% for t in site.data.tools %}<li class="xr-tool" data-kind="tool" data-al="{{ t.alignments | join: ' ' }}" data-dom="{{ t.domains | join: ' ' }}">
+<span class="xr-y">{{ t.date | date: "%Y" }}</span>
+<span class="xr-t"><a href="{{ t.url }}" target="_blank" rel="noopener">{{ t.name }}</a> <i>Public tool · {{ t.line }}</i></span>
+<span class="xr-s">{% for k in xletters %}{% if t.alignments contains k %}{% assign a = site.data.alignments | where: "key", k | first %}<i data-k="{{ k }}" class="in" data-tip="{{ a.short }} alignment">{{ k }}</i>{% endif %}{% endfor %}<a class="xr-det" href="{{ t.repo }}" target="_blank" rel="noopener" data-tip="Source on GitHub" aria-label="Source on GitHub"><i class="fab fa-github"></i></a></span>
+</li>{% endfor %}
 {% for post in xpubs %}{% include pub-orig.html p=post %}<li data-al="{{ post.alignments | join: ' ' }}" data-dom="{{ post.domains | join: ' ' }}">
 <span class="xr-y">{% if post.status %}{{ post.status }}{% else %}{{ post.date | date: "%Y" }}{% endif %}</span>
 <span class="xr-t">{% if orig and orig != "" %}<a href="{{ orig }}" target="_blank" rel="noopener">{{ post.title }}</a>{% else %}<a href="{{ post.url }}">{{ post.title }}</a>{% endif %} <i>{{ post.venue | truncate: 60 }}</i></span>
