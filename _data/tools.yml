@@ -1,0 +1,23 @@
+# Public tools as works in the cross-filter of the homepage (_includes/cross-items.html): the same alignments as
+# their cards in _includes/tools.html; domains only where a tool works in one (keys as in the publications).
+- name: Open Energy Map
+  url: https://chenxiachan.github.io/open-energy-map/
+  repo: https://github.com/chenxiachan/open-energy-map
+  line: Building energy you can trace to its source
+  date: 2026-11-18
+  alignments: [B, C]
+  domains: [be, ese]
+- name: TextFold
+  url: https://chenxiachan.github.io/textfold/
+  repo: https://github.com/chenxiachan/textfold
+  line: Read at the level of detail you need
+  date: 2026-10-04
+  alignments: [C]
+  domains: []
+- name: ThoughtDAG
+  url: https://chenxiachan.github.io/thoughtdag/
+  repo: https://github.com/chenxiachan/thoughtdag
+  line: Thinking with AI on an infinite canvas
+  date: 2026-02-17
+  alignments: [A, C]
+  domains: []
