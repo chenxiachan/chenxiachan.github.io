@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 
-<h2 class="pub-group pub-first" id="tools">Open-source tools</h2>
+<h2 class="pub-group pub-first" id="tools">Public tools</h2>
 <div class="hv" markdown="0">
 {% include tools.html %}
 </div>

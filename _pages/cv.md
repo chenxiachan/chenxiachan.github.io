@@ -29,6 +29,12 @@ Service
 * Conference reviewing: ICML 2026, NeurIPS 2026, EG-ICE 2021–2023, Building Simulation 2023, PLEA 2022
 * Journal reviewing: Energy and Buildings, Fuel, Advanced Engineering Informatics, Structures, Journal of Neural Engineering, Neuromorphic Computing and Engineering
 
+Public tools
+======
+* [Open Energy Map](https://chenxiachan.github.io/open-energy-map/): building energy you can trace to its source, from one building to the whole city; first city: Munich
+* [ThoughtDAG](https://chenxiachan.github.io/thoughtdag/): thinking with AI on an infinite canvas
+* [TextFold](https://chenxiachan.github.io/textfold/): read at the level of detail you need
+
 Publications, talks and teaching
 ======
 See [Publications]({{ base_path }}/publications/), [Talks]({{ base_path }}/talks/) and [Teaching]({{ base_path }}/teaching/).
